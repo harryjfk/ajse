@@ -1,0 +1,4 @@
+[30-Aug-2018 17:34:43 UTC] PHP Parse error:  syntax error, unexpected ''post__not_in' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/qbabit/public_html/ajse/wp-includes/class-wp-query.php on line 2966
+[30-Aug-2018 17:35:05 UTC] PHP Parse error:  syntax error, unexpected ''post__not_in' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/qbabit/public_html/ajse/wp-includes/class-wp-query.php on line 2966
+[30-Aug-2018 17:37:06 UTC] PHP Parse error:  syntax error, unexpected '%' in /home/qbabit/public_html/ajse/wp-includes/class-wp-query.php on line 1869
+[30-Aug-2018 17:43:02 UTC] PHP Parse error:  syntax error, unexpected '%' in /home/qbabit/public_html/ajse/wp-includes/class-wp-query.php on line 1869

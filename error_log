@@ -1,0 +1,5 @@
+[30-Aug-2018 17:33:14 UTC] PHP Parse error:  syntax error, unexpected ''post__not_in' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/qbabit/public_html/ajse/wp-includes/class-wp-query.php on line 2966
+[30-Aug-2018 17:33:20 UTC] PHP Parse error:  syntax error, unexpected ''post__not_in' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/qbabit/public_html/ajse/wp-includes/class-wp-query.php on line 2966
+[30-Aug-2018 17:34:46 UTC] PHP Parse error:  syntax error, unexpected ''post__not_in' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/qbabit/public_html/ajse/wp-includes/class-wp-query.php on line 2966
+[30-Aug-2018 17:36:22 UTC] PHP Parse error:  syntax error, unexpected ''post__not_in' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/qbabit/public_html/ajse/wp-includes/class-wp-query.php on line 2966
+[30-Aug-2018 17:36:23 UTC] PHP Parse error:  syntax error, unexpected ''post__not_in' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/qbabit/public_html/ajse/wp-includes/class-wp-query.php on line 2966

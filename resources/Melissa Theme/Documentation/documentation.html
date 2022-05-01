@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Alexey Trofimov">
+<link rel="icon" href="assets/img/favicon.png">
+
+<title>Documentation | Melissa WordPress Theme</title>
+
+<!-- FONTS -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,300italic,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
+
+<!-- CSS -->
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+<link href="assets/plugins/prettyPhoto/css/prettyPhoto.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+
+<!-- JS -->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/jquery-migrate.min.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="assets/js/html5shiv.min.js"></script>
+  <script src="assets/js/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<!-- header -->
+<header id="docs-header">
+  <div class="container">
+    <div id="top" class="docs-header-container">
+
+      <!-- top nav -->
+      <nav class="docs-header-nav hidden-sm hidden-xs">
+        <ul class="docs-header-navigation list-unstyled">
+          <li class="theme-name"><a href="https://themeforest.net/item/melissa-personal-blogmagazine-wordpress-theme/18845806?ref=BirdwpThemes" target="_blank" title="Melissa">Melissa</a></li>
+          <li><a href="#theme-support-section" title="Support">Support</a></li>
+          <li><a href="https://themeforest.net/user/birdwpthemes#contact" target="_blank" title="Contact">Contact</a></li>
+          <li><a href="https://themeforest.net/user/birdwpthemes/portfolio" target="_blank" title="Portfolio">Portfolio</a></li>
+          <li><a href="http://birdwp.com" target="_blank" title="Birdwp.com">Birdwp.com</a></li>
+          <li class="twitter-link"><a href="https://twitter.com/BirdwpThemes" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+          <li class="facebook-link"><a href="https://www.facebook.com/BirdwpThemes/" target="_blank" title="Facebook"><i class="fa fa-facebook-official"></i></a></li>
+        </ul>
+      </nav>
+      <!-- end top nav -->
+
+      <!-- responsive nav - collapse button -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle responsive-nav-collapse-btn" data-toggle="collapse" data-target="#responsive-nav-collapse">
+          <i class="fa fa-bars"></i>
+        </button>
+        <a href="https://themeforest.net/item/melissa-personal-blogmagazine-wordpress-theme/18845806?ref=BirdwpThemes" class="navbar-brand hidden-md hidden-lg" target="_blank">Melissa</a>
+      </div>
+      <!-- end responsive nav - collapse button -->
+
+      <!-- responsive nav -->
+      <div id="responsive-nav-collapse" class="collapse navbar-collapse">
+        <nav>
+          <ul class="responsive-nav list-unstyled hidden-md hidden-lg">
+
+            <li><a href="#installation-section">Theme Installation</a></li>
+            <li><a href="#update-section">How to Update</a></li>
+            <li><a href="#creating-blog-posts-section">Creating Blog Posts</a></li>
+            <li><a href="#creating-pages-section">Creating Pages</a></li>
+            <li><a href="#creating-menus-section">Creating Menus</a></li>
+            <li><a href="#widgets-section">Using Widgets</a></li>
+            <li><a href="#theme-customization-section">Theme Customization</a></li>
+            <li><a href="#translation-section">Translation</a></li>
+            <li><a href="#importing-demo-data-section">Importing Demo Data</a></li>
+            <li><a href="#theme-support-section">Support and Feedback</a></li>
+            <li><a href="#credits-section">Credits</a></li>
+
+          </ul>
+        </nav>
+      </div>
+      <!-- end responsive nav -->
+
+    </div>
+  </div>
+</header>
+<!-- end header -->
+
+<!-- heading -->
+<section id="docs-heading-section">
+  <div class="container">
+    <div class="docs-heading-container">
+      <h1><span>Melissa</span> WordPress Theme - Documentation</h1>
+      <p>Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="https://themeforest.net/user/birdwpthemes#contact" target="_blank" title="Contact"><strong>here</strong></a>. Thanks so much!</p>
+      <ul class="list-unstyled">
+        <li>Marketplace: <a href="https://themeforest.net" target="_blank"><strong>ThemeForest</strong></a></li>
+        <li>By: <a href="https://themeforest.net/user/birdwpthemes" target="_blank"><strong>BirdwpThemes</strong></a></li>
+        <li>Email: <a href="mailto:birdwp@mail.ru"><strong>birdwp@mail.ru</strong></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- end heading -->
+
+<!-- content -->
+<section id="docs-content-section">
+  <div class="container">
+    <div class="docs-content-container">
+      <div class="row">
+
+        <!-- sidebar nav -->
+        <div class="col-md-3" role="complementary">
+          <nav id="sidebar-scrollspy-nav" class="hidden-sm hidden-xs">
+            <ul id="sidebar-nav" class="nav sidebar-navigation list-unstyled">
+
+              <li><a href="#installation-section">Theme Installation</a></li>
+              <li><a href="#update-section">How to Update</a></li>
+              <li><a href="#creating-blog-posts-section">Creating Blog Posts</a></li>
+              <li><a href="#creating-pages-section">Creating Pages</a></li>
+              <li><a href="#creating-menus-section">Creating Menus</a></li>
+              <li><a href="#widgets-section">Using Widgets</a></li>
+              <li><a href="#theme-customization-section">Theme Customization</a></li>
+              <li><a href="#translation-section">Translation</a></li>
+              <li><a href="#importing-demo-data-section">Importing Demo Data</a></li>
+              <li><a href="#theme-support-section">Support and Feedback</a></li>
+              <li><a href="#credits-section">Credits</a></li>
+
+              <li class="nav-item-back-to-top"><a href="#top">Back to top</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- end sidebar nav -->
+
+        <!-- documentation content -->
+        <div class="col-md-9" role="main">
+          <div class="content">
+
+            <!-- *************************
+            1 - Installation
+            ************************* -->
+            <div id="installation-section">
+
+              <div class="content-section">
+                <h2 class="content-section-heading ta-center">Theme Installation</h2>
+                <p>To install this theme you must have a working version of <a href="https://wordpress.org/download/" target="_blank" title="WordPress">WordPress</a>. Make sure that your installed WordPress version is <strong>4.5 or higher</strong>.</p>
+                <p class="mb-25">If you need help by installation of WordPress, follow the <a href="http://codex.wordpress.org/Installing_WordPress" target="_blank" title="Installing WordPress">instructions</a> in <a href="http://codex.wordpress.org/Main_Page" target="_blank" title="WordPress Codex">WordPress Codex</a>. Also <a href="https://wordpress.org/download/" target="_blank" title="Download WordPress">here</a> you can download the latest version of WordPress.</p>
+                <div class="alert alert-info" role="alert">
+                  <strong>Please note:</strong> Melissa will only work with <strong>WordPress.ORG</strong> and not <strong>WordPress.COM</strong>
+                </div>
+              </div>
+
+              <div class="content-section">
+                <h3 class="content-section-heading ta-center">Downloading</h3>
+                <figure class="content-section-image">
+                  <a href="assets/img/screenshots/download_theme.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/download_theme.png" alt="Downloading">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+                <p>At first, after purchasing this theme please download the package from ThemeForest (to do this you must be logged in ThemeForest). Move your mouse over your ThemeForest login name in right top corner and then click <strong>Download</strong>. On the Downloads page you will find all the items that you have purchased. This theme will also be here.</p>
+                <p>In the next step click the <strong>Download <i class="fa fa-long-arrow-right"></i> All files & documentation</strong> button and save package on your computer.</p>
+                <p><strong>Please unpack the entire package after downloading.</strong></p>
+                <p>The Main Files includes the following files and folders:</p>
+                <ul>
+                  <li><strong>Demo Content</strong> folder - contains demo data file
+                    <ul>
+                      <li><strong>melissa-demo-data.xml</strong> - xml file with demo data</li>
+                    </ul>
+                  </li>
+                  <li><strong>Documentation</strong> folder - contains this document
+                    <ul>
+                      <li><strong>assets</strong> folder - contains files for documentation</li>
+                      <li><strong>documentation.html</strong> - documentation file</li>
+                    </ul>
+                  </li>
+                  <li><strong>melissa.zip</strong> - Melissa theme (ZIP archive for installation)</li>
+                  <li><strong>Changelog.txt</strong> - changelog text file</li>
+                  <li><strong>Readme.txt</strong> - some information about folders and files in the package</li>
+                </ul>
+              </div>
+
+              <div class="content-section">
+                <h3 class="content-section-heading ta-center">Installation</h3>
+                <p>You can install this theme in two different ways:</p>
+                <ul>
+                  <li><a href="#installing-from-wp-dashboard">WordPress Theme Manager</a> (installing from the WordPress Dashboard)</li>
+                  <li><a href="#ftp-install">FTP upload</a></li>
+                </ul>
+              </div>
+
+              <!-- 1 -->
+              <div id="installing-from-wp-dashboard" class="content-section">
+                <h3 class="content-section-heading ta-center">1. WordPress Theme Manager</h3>
+                <h4 class="content-section-heading ta-center">1.1 Go to Themes Page</h4>
+                <figure class="content-section-image">
+                  <a href="assets/img/screenshots/install_1.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/install_1.png" alt="Themes Page">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+                <p><strong>Step 1.</strong> Login to your WordPress admin page.</p>
+                <p><strong>Step 2.</strong> Navigate to <strong>Appearance <i class="fa fa-long-arrow-right"></i> Themes</strong>.</p>
+                <p><strong>Step 3.</strong> Press <strong>Add New</strong> button.</p>
+              </div>
+
+              <div class="content-section">
+                <h4 class="content-section-heading ta-center">1.2 Upload Theme</h4>
+                <figure class="content-section-image">
+                  <a href="assets/img/screenshots/install_2.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/install_2.png" alt="Upload Theme">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+                <p><strong>Step 4.</strong> Press <strong>Upload Theme</strong> button.</p>
+              </div>
+
+              <div class="content-section">
+                <h4 class="content-section-heading ta-center">1.3 Upload Theme ZIP File</h4>
+                <figure class="content-section-image">
+                  <a href="assets/img/screenshots/install_3.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/install_3.png" alt="Upload Theme zip File">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+                <p><strong>Step 5.</strong> Press <strong>Choose file</strong> button and select the theme zip file (<strong>melissa.zip</strong>).</p>
+                <p><strong>Step 6.</strong> Then press <strong>Install Now</strong> button.</p>
+                <p class="mb-25">The installation process starts...</p>
+                <div class="alert alert-info" role="alert">
+                  If at this step you see some error (for example: <i>The uploaded file exceeds the upload_max_filesize directive in php.ini</i>), go to <a href="#ftp-install" class="alert-link">"FTP upload"</a> section.
+                </div>
+              </div>
+
+              <div class="content-section">
+                <h4 class="content-section-heading ta-center">1.4 Activate Theme</h4>
+                <figure class="content-section-image">
+                  <a href="assets/img/screenshots/install_4.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/install_4.png" alt="Activate Theme">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+                <p><strong>Step 7.</strong> After the installation is complete, click <strong>Activate</strong> the theme.</p>
+              </div>
+
+              <div class="content-section" id="install-step-1-5">
+                <h4 class="content-section-heading ta-center">1.5 Required Plugin</h4>
+                <figure class="content-section-image">
+                  <a href="assets/img/screenshots/install_5.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/install_5.png" alt="Required Plugin">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+                <p><strong>Step 8.</strong> The theme is now activated. You should now install and activate the required plugin by clicking on <strong>Begin installing plugin</strong> on top of the screen.</p>
+              </div>
+
+              <div class="content-section">
+                <h4 class="content-section-heading ta-center">1.6 Plugin Installation</h4>
+                <figure class="content-section-image">
+                  <a href="assets/img/screenshots/install_6.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/install_6.png" alt="Plugin Installation">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+                <p class="mb-30"><strong>Step 9.</strong> Choose the <strong>Meta Box</strong> plugin and then choose <strong>Install</strong> from the dropdown menu. Press <strong>Apply</strong> button to continue the installation.</p>
+              </div>
+
+              <div class="content-section">
+                <h4 class="content-section-heading ta-center">1.7 Installation Complete</h4>
+                <figure class="content-section-image">
+                  <a href="assets/img/screenshots/install_7.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/install_7.png" alt="Installation Complete">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+                <p><strong>Step 10.</strong> After the installation is complete, click on <strong>Return to the Dashboard</strong>.</p>
+              </div>
+
+              <div class="content-section">
+                <h4 class="content-section-heading ta-center">1.8 Reading Settings</h4>
+                <figure class="content-section-image">
+                  <a href="assets/img/screenshots/install_8.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/install_8.png" alt="Reading Settings">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+                <p><strong>Step 11.</strong> Navigate to <strong>Settings <i class="fa fa-long-arrow-right"></i> Reading <i class="fa fa-long-arrow-right"></i> Front page displays</strong> and choose <strong>"Your latest posts"</strong> option.</p>
+                <p class="mb-25"><strong>Step 12.</strong> Press <strong>Save Changes</strong> button.</p>
+                <div class="alert alert-success" role="alert"><strong>Now you can start working on your site ;)</strong></div>
+              </div>
+
+              <!-- 2 -->
+              <div class="content-section" id="ftp-install">
+                <h3 class="content-section-heading ta-center">2. Installing by FTP</h3>
+                <p>If you have any problems with installing the theme from the WordPress Dashboard (for example, you see this error: <i>"The uploaded file exceeds the upload_max_filesize directive in php.ini"</i>), then you need to install it via <strong>FTP</strong>.</p>
+                <p>For this you need to upload non-zipped theme folder called <strong>melissa</strong> to <strong>/wp-content/themes/</strong> folder in your WordPress installation folder on your server.</p>
+                <p>Next, login to your WordPress admin page and activate the theme (<strong>Appearance <i class="fa fa-long-arrow-right"></i> Themes</strong>).</p>
+                <p class="mb-25">After the successful activation see <a href="#install-step-1-5"><strong>Step 1.5</strong></a> of this documentation.</p>
+                <div class="alert alert-info" role="alert">
+                  If you don't know how to use FTP, visit this link for more information: <a href="https://codex.wordpress.org/FTP_Clients" target="_blank" class="alert-link" title="FTP Clients"><strong>https://codex.wordpress.org/FTP_Clients</strong></a>
+                </div>
+              </div>
+
+            </div>
+            <!-- *************************
+            end Installation
+            ************************* -->
+
+            <!-- *************************
+            2 - Update
+            ************************* -->
+            <div id="update-section">
+
+              <div class="content-section">
+                <h2 class="content-section-heading ta-center">How to Update Melissa</h2>
+                <p>In this part of the guide describes how to update Melissa. Just follow these seven steps:</p>
+                <p><strong>Step 1.</strong> At first, you need to download the latest package from ThemeForest.</p>
+                <p><strong>Step 2.</strong> Unpack the entire package after downloading.</p>
+                <p><strong>Step 3.</strong> Next, please unpack the archive with the theme: <strong>melissa.zip</strong>.</p>
+                <p><strong>Step 4.</strong> After that you need to remove the <strong>melissa</strong> folder from your server (<strong>/wp-content/themes/melissa</strong>). For this you can use any FTP client, for example, <a href="https://filezilla-project.org" target="_blank" title="FileZilla"><strong>FileZilla</strong></a>.</p>
+                <p><strong>Step 5.</strong> Then you need to upload non-zipped <strong>melissa</strong> folder to <strong>/wp-content/themes/</strong> folder in your WordPress installation folder on your server.</p>
+                <p><strong>Step 6.</strong> Next, login to your WordPress admin page and install required plugins (if it is necessary). You will see a notification about this.</p>
+                <p><strong>Step 7.</strong> Clear your browser's cache, and update plugins cache (if you have caching plugins).</p>
+                <p>Remember, that all your data in the database are safe because after updating theme files does not change anything in the database. Please also always make a backup of your files before you overwrite them with the new.</p>
+                <p class="mb-25">If you have made changes in the files, then after updating all your changes will be lost.</p>
+                <div class="alert alert-info" role="alert">
+                  If you don't know how to use FTP, visit this link for more information: <a href="https://codex.wordpress.org/FTP_Clients" target="_blank" class="alert-link" title="FTP Clients"><strong>https://codex.wordpress.org/FTP_Clients</strong></a>
+                </div>
+              </div>
+
+            </div>
+            <!-- *************************
+            end Update
+            ************************* -->
+
+            <!-- *************************
+            3 - Creating Blog Posts
+            ************************* -->
+            <div id="creating-blog-posts-section">
+
+              <div class="content-section">
+                <h2 class="content-section-heading ta-center">Creating Blog Posts</h2>
+                <p>To create a blog, first make sure that on the front page displays your latest posts. For this navigate to <strong>Settings <i class="fa fa-long-arrow-right"></i> Reading <i class="fa fa-long-arrow-right"></i> Front page displays</strong> and choose <strong>"Your latest posts"</strong> option. After that you can create new blog posts.</p>
+                <p>Adding new posts works similar to standard <strong>WordPress Posts <i class="fa fa-long-arrow-right"></i> Add New</strong>. All posts will be displayed on the front page.</p>
+                <p>With this theme you can use 10 post formats: standard, image, gallery, video, audio, aside, link, quote, status, and chat. Here's a quick overview of them:</p>
+                <p><strong>Standard Post Format</strong>.</p>
+                <p>When writing or editing a post, Standard is used to designate that no Post Format is specified. However for this format you can add an image (<strong>Featured Image</strong> section). This image will be displayed at the top of your post. Also in the bottom of the page you will find several additional sections: <strong>General Settings</strong>, <strong>Header Image</strong>, and <strong>Header Video</strong>. In <strong>General Settings</strong> you can select <strong>Layout</strong>, add <strong>Subtitle</strong>, and select header background type for your post. <strong>Header Image</strong> and <strong>Header Video</strong> options you need to use only if you want to display in the header of this post an image or a video, which differ from an image or a video that you set in the theme settings. In this case, do not forget to select <strong>"Own background"</strong> value in the <strong>"Header background for this post"</strong> option.</p>
+                <p class="mb-20">These three additional sections (<strong>General Settings</strong>, <strong>Header Image</strong>, and <strong>Header Video</strong>) are available for each post format.</p>
+                <div class="alert alert-info" role="alert">
+                  <strong>Note</strong>. Mobile devices do not support Video backgrounds. On mobile devices will be displayed an image that you selected for this video.
+                </div>
+                <p><strong>Image Post Format</strong>.</p>
+                <p>For this format you can also add an image (<strong>Featured Image</strong> section), and this image will be displayed at the top of your post.</p>
+                <p><strong>Gallery Post Format</strong>.</p>
+                <p>The gallery format gives you additional settings for creating images gallery. These settings you can find in the bottom of the page (<strong>Gallery Format</strong> section). To create a gallery, press <strong>+ Add Media</strong> button and then select or upload images. <strong>Recommendation</strong>: these images must have the same dimensions.</p>
+                <p><strong>Video Post Format</strong>.</p>
+                <p>You can also create a video post. When you select the Video format, in the bottom of the page you will see additional settings for this format (<strong>Video Format</strong> section). Here you can add a link (URL) to your video. The theme will then check the URL and display the video at the top of your post. If the video does not appear then you have used the wrong URL. Make sure the URL you take is directly from your browser navigation bar when viewing a video on YouTube, Vimeo, etc.</p>
+                <p><strong>Audio Post Format</strong>.</p>
+                <p>For the Audio format additional settings are also available. These settings you can find in the bottom of the page (<strong>Audio Format</strong> section). Here you can add a link (URL) on a song from SoundCloud service. The theme will then check the URL and display the audio at the top of your post. Make sure the URL you take is directly from your browser navigation bar when viewing a song on SoundCloud.</p>
+                <p>You can also select the type of thumbnail for the gallery, video, and audio formats. This option (<strong>Thumbnail type</strong>) determines what will be displayed on the blog page: featured image, slider (Gallery format), video player (Video format), audio player (Audio format).</p>
+                <p><strong>Aside Post Format</strong>.</p>
+                <p>This format is suitable for brief snippets of text that aren’t quite whole blog posts, such as quick thoughts and anecdotes. You can also add an image (<strong>Featured Image</strong>), and this image will be displayed at the top of your post.</p>
+                <p><strong>Link Post Format</strong>.</p>
+                <p>This is a post with a link to another site. Melissa theme will use the first <strong>&lt;a href=""&gt;&lt;/a&gt;</strong> tag in the post content as the external link for that post. You can also choose where you want to open this link: in a new tab or not (<strong>Link Format</strong> section).</p>
+                <p><strong>Quote Post Format</strong>.</p>
+                <p class="mb-20">Quote highlights your blockquoted text in a bolder way than standard posts typically do. Use the following code for your quotations:</p>
+                <pre>
+&lt;blockquote&gt;
+  A quotation text
+  ...
+  ...
+  &lt;footer&gt;
+    &lt;cite&gt;
+      &lt;a href="#"&gt;Author&lt;/a&gt;
+    &lt;/cite&gt;
+  &lt;/footer&gt;
+&lt;/blockquote&gt;</pre>
+                <p>You can use this code in your WordPress text editor (<strong>Text</strong> tab).</p>
+                <p><strong>Status Post Format</strong>.</p>
+                <p>Status format is suitable for a quick update about what you are doing right now (similar to a Twitter status update). In the Melissa theme is also recommended to write a title for a post in this format.</p>
+                <p><strong>Chat Post Format</strong>.</p>
+                <p class="mb-20">Chat to highlight memorable conversations you have with friends. It looks like so:</p>
+                <pre>
+John: foo
+Mary: bar
+John: foo 2
+...</pre>
+                <p class="mb-25">Below you can see the <strong>"Add New Post"</strong> page.</p>
+                <figure class="content-section-image">
+                  <a href="assets/img/screenshots/add_new_post_1.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/add_new_post_1.png" alt="Add New Post">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+                <p class="mb-25">You can also add pagination to a single post page. For this you need to use <strong>&lt;!--nextpage--&gt;</strong> quicktag. Just add it to your text editor where you want to start a new page. <a href="http://themes.birdwp.com/melissa/post-with-pagination/" target="_blank"><strong>Here</strong></a> you can see how it looks.</p>
+                <figure class="content-section-image">
+                  <a href="assets/img/screenshots/add_new_post_2.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/add_new_post_2.png" alt="nextpage">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+                <p>On the <a href="http://themes.birdwp.com/melissa/" target="_blank">live preview demonstration</a> you can see popup images on single pages. You can also easily do the same with your images.</p>
+                <p><strong>Step 1.</strong> At first, you need to add an image into the Post Editor. Press <strong>Add Media</strong> button on the top left of your Post Editor and select an image you want to add.</p>
+                <p class="mb-25"><strong>Step 2.</strong> Hover your mouse over the image and click the <strong>Edit</strong> icon.</p>
+                <figure class="content-section-image">
+                  <a href="assets/img/screenshots/add_new_post_3.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/add_new_post_3.png" alt="Edit icon">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+                <p><strong>Step 3.</strong> From the <strong>Link To</strong> drop-down menu select <strong>Media File</strong>.</p>
+                <p><strong>Step 4.</strong> Next, click the <strong>ADVANCED OPTIONS</strong> link.</p>
+                <p><strong>Step 5.</strong> Add the following class to the <strong>Link CSS Class</strong> field: <strong>bwp-popup-image</strong></p>
+                <p class="mb-25"><strong>Step 6.</strong> Press <strong>Update</strong> button.</p>
+                <figure class="content-section-image">
+                  <a href="assets/img/screenshots/add_new_post_4.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/add_new_post_4.png" alt="popup image">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+                <p>After completing these steps your image also can be opened in a popup window.</p>
+              </div>
+
+            </div>
+            <!-- *************************
+            end Creating Blog Posts
+            ************************* -->
+
+            <!-- *************************
+            4 - Creating Pages
+            ************************* -->
+            <div id="creating-pages-section">
+
+              <div class="content-section">
+                <h2 class="content-section-heading ta-center">Creating Pages</h2>
+                <p>Adding new pages works similar to standard <strong>WordPress Pages <i class="fa fa-long-arrow-right"></i> Add New</strong>.</p>
+                <p class="mb-20">At the bottom of the page you can find several additional sections: <strong>Page Settings</strong>, <strong>Header Image</strong>, and <strong>Header Video</strong>. In <strong>Page Settings</strong> you can select <strong>Layout</strong>, add <strong>Subtitle</strong>, and select header background type for your page. <strong>Header Image</strong> and <strong>Header Video</strong> options you need to use only if you want to display in the header of this page an image or a video, which differ from an image or a video that you set in the theme settings. In this case, do not forget to select <strong>"Own background"</strong> value in the <strong>"Header background for this page"</strong> option.</p>
+                <div class="alert alert-info" role="alert">
+                  <strong>Note</strong>. Mobile devices do not support Video backgrounds. On mobile devices will be displayed an image that you selected for this video.
+                </div>
+                <p class="mb-25">You can also add an image to your page (<strong>Featured Image</strong> section).</p>
+                <figure class="content-section-image mb-none">
+                  <a href="assets/img/screenshots/add_new_page_1.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/add_new_page_1.png" alt="Creating pages">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+              </div>
+
+            </div>
+            <!-- *************************
+            end Creating Pages
+            ************************* -->
+
+            <!-- *************************
+            5 - Creating Menus
+            ************************* -->
+            <div id="creating-menus-section">
+
+              <div class="content-section">
+                <h2 class="content-section-heading ta-center">Creating Menus</h2>
+                <p class="mb-25">The first step of creating our menu is to open the WordPress Menu Editor. For this go to <strong>Appearance <i class="fa fa-long-arrow-right"></i> Menus</strong>, type <strong>Name</strong> for your menu and press <strong>Create Menu</strong> button.</p>
+                <figure class="content-section-image">
+                  <a href="assets/img/screenshots/menu_1.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/menu_1.png" alt="Create menu">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+                <p>Next, in section <strong>Theme locations</strong> for position <strong>Main menu</strong> you need to choose a menu that you've just created.</p>
+                <p>Now you can add Pages, Posts, Custom Links and Categories from blocks located on the left.</p>
+                <p class="mb-25">At the end you need to save your new menu by clicking on <strong>Save Menu</strong>.</p>
+                <figure class="content-section-image mb-none">
+                  <a href="assets/img/screenshots/menu_2.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/menu_2.png" alt="Save menu">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+              </div>
+
+            </div>
+            <!-- *************************
+            end Creating Menus
+            ************************* -->
+
+            <!-- *************************
+            6 - Widgets
+            ************************* -->
+            <div id="widgets-section">
+
+              <div class="content-section">
+                <h2 class="content-section-heading ta-center">Widgets</h2>
+                <p>You can manage widgets on the <strong>Widgets</strong> page (<strong>Appearance <i class="fa fa-long-arrow-right"></i> Widgets</strong>).</p>
+                <p><strong>Available widget areas:</strong></p>
+                <ul>
+                  <li>Homepage</li>
+                  <li>Archive Pages</li>
+                  <li>Single Post</li>
+                  <li>Pages</li>
+                  <li>Footer (Column 1)</li>
+                  <li>Footer (Column 2)</li>
+                  <li>Footer (Column 3)</li>
+                </ul>
+                <p>This theme includes 7 new widgets but in total you have 22 different widgets to use.</p>
+                <p><strong>New widgets:</strong></p>
+                <ul>
+                  <li>Popular Posts - Widget shows a list of popular posts</li>
+                  <li>Posts List - Widget shows posts list with large thumbnails</li>
+                  <li>Random Posts - Widget shows a list of random posts</li>
+                  <li>Recent Posts - Widget shows a list of recent posts</li>
+                  <li>Slider With Posts - Widget shows a slider with posts</li>
+                  <li>Social Links - Widget shows links to social profiles</li>
+                  <li>Thumbnails Gallery - Widget shows a gallery of post thumbnails</li>
+                </ul>
+                <p class="mb-25">To get them, all you need to do is drag widgets available on the left side and drop into the right sidebars on the right side.</p>
+                <figure class="content-section-image">
+                  <a href="assets/img/screenshots/widgets_1.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/widgets_1.png" alt="Widgets">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+                <figure class="content-section-image mb-none">
+                  <a href="assets/img/screenshots/new_widgets_1.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/new_widgets_1.png" alt="New widgets">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+              </div>
+
+            </div>
+            <!-- *************************
+            end Widgets
+            ************************* -->
+
+            <!-- *************************
+            7 - Theme Customization
+            ************************* -->
+            <div id="theme-customization-section">
+
+              <div class="content-section">
+                <h2 class="content-section-heading ta-center">Theme Customization</h2>
+                <p class="mb-25">Theme options powered by WordPress Customizer. To find them, Navigate to <strong>Appearance <i class="fa fa-long-arrow-right"></i> Customize</strong>.</p>
+                <figure class="content-section-image mb-40">
+                  <a href="assets/img/screenshots/1_customize_settings.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/1_customize_settings.png" alt="Theme settings">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+
+                <!-- Site Identity -->
+                <h3 id="customize-site-identity" class="content-section-heading">1. Site Identity</h3>
+                <ul class="ul-large-indent mb-25">
+                  <li><strong>Logo</strong> - here you can upload logo. For this option you need to select the <strong>Image</strong> logo type: <strong>Customize <i class="fa fa-angle-right"></i> General Settings <i class="fa fa-angle-right"></i> Logo <i class="fa fa-angle-right"></i> Logo Type: Image</strong>. Note: make sure that your installed WordPress version is 4.5 or higher, because logo upload option will only work with WordPress v4.5 (or higher).</li>
+                  <li><strong>Site Title</strong> - title for your site. It is displayed in the window / tab of your browser.</li>
+                  <li><strong>Tagline</strong> - tagline for your site. It is also displayed in the window / tab of your browser.</li>
+                  <li><strong>Retina Logo (optional)</strong> - here you can upload Retina logo. Note: Retina logo should be always 2x larger than regular logo. This field is optional.</li>
+                  <li><strong>Site Icon</strong> - upload your favicon image. Icon must be square, and at least 512 pixels wide and tall.</li>
+                </ul>
+                <figure class="content-section-image mb-40">
+                  <a href="assets/img/screenshots/2_customize_site_identity.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/2_customize_site_identity.png" alt="Site Identity">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+
+                <!-- General Settings -->
+                <h3 id="customize-general-settings" class="content-section-heading">2. General Settings</h3>
+                <h4>Header</h4>
+                <ul class="ul-large-indent">
+                  <li><strong>Header Type</strong> - choose between <strong>"Simple header"</strong> and <strong>"Header with animation"</strong> options.</li>
+                  <li><strong>Header Background Type (Header Type: Header with animation)</strong> - choose between <strong>Image</strong> and <strong>Video</strong> options. Note: This setting is only for the second header type (Header Type > Header with animation). Also remember that mobile devices do not support Video backgrounds. On mobile devices will be displayed an image that you selected for this video.</li>
+                  <li><strong>Show search icon</strong> - show/hide search icon.</li>
+                </ul>
+                <h4>Logo</h4>
+                <ul class="ul-large-indent">
+                  <li><strong>Logo Type</strong> - choose between <strong>Text</strong> and <strong>Image</strong> options.</li>
+                  <li><strong>Text for Logo (Logo Type: Text)</strong> - enter text for your logo.</li>
+                </ul>
+                <h4>Header Custom Text</h4>
+                <ul class="ul-large-indent">
+                  <li><strong>Custom Title</strong> - enter a title for the home page. Allowed HTML Tags: &lt;span&gt;, &lt;strong&gt;, &lt;b&gt;, &lt;em&gt;, &lt;i&gt;. Allowed Attributes: <strong>&lt;span&gt;</strong>: class; <strong>&lt;i&gt;</strong>: class.</li>
+                  <li><strong>Custom Text</strong> - enter a brief description of your site. It will be displayed on the home page. Allowed HTML Tags: &lt;a&gt;, &lt;span&gt;, &lt;strong&gt;, &lt;b&gt;, &lt;em&gt;, &lt;i&gt;, &lt;br&gt;. Allowed Attributes: <strong>&lt;a&gt;</strong>: href, title, target, class; <strong>&lt;span&gt;</strong>: class; <strong>&lt;i&gt;</strong>: class.</li>
+                </ul>
+                <h4>Sticky Menu</h4>
+                <ul class="ul-large-indent">
+                  <li><strong>Enable sticky menu</strong> - enable/disable sticky menu.</li>
+                </ul>
+                <h4>Blog</h4>
+                <ul class="ul-large-indent">
+                  <li><strong>Blog Layout</strong> - choose a blog layout (3 Columns, 2 Columns with left or right sidebar, 2 Columns, 1 Column with left or right sidebar, 1 Column).</li>
+                  <li><strong>Pagination Type</strong> - choose between <strong>Standard pagination</strong>, <strong>Next/Previous page links</strong>, <strong>Infinite scroll</strong>, and <strong>Load More button</strong>.</li>
+                  <li><strong>Links Open in... (Target Attribute)</strong> - select <strong>New tab (_blank)</strong> to open links on blog posts in a new browser tab.</li>
+                  <li><strong>Use Excerpt or "Read More tag"</strong> - select <strong>Read More tag</strong> if you want to use WordPress read more tag for creating excerpt for posts. Otherwise <strong>Excerpt</strong> will be created automatically.</li>
+                  <li><strong>Excerpt Length (Number of Words)</strong> - length for auto excerpt (default value: 20).</li>
+                  <li><strong>Increase all small featured images</strong> - enable this option if you want to scale small featured images.</li>
+                  <li><strong>Show icon and transparent dark background when you hover on featured images</strong> - enable this option if you want to show icon and transparent dark background when you hover on featured images.</li>
+                  <li><strong>Show date</strong> - show/hide date.</li>
+                  <li><strong>Show views counter</strong> - show/hide views counter.</li>
+                  <li><strong>Show likes counter</strong> - show/hide likes counter.</li>
+                </ul>
+                <h4>Single Post Page</h4>
+                <ul class="ul-large-indent">
+                  <li><strong>Show social sharing buttons</strong> - show/hide social sharing buttons.</li>
+                  <li><strong>Show views counter</strong> - show/hide views counter.</li>
+                  <li><strong>Show comments counter</strong> - show/hide comments counter.</li>
+                  <li><strong>Show likes counter</strong> - show/hide likes counter.</li>
+                  <li><strong>Show author</strong> - show/hide author.</li>
+                  <li><strong>Show date</strong> - show/hide date.</li>
+                  <li><strong>Show categories</strong> - show/hide categories.</li>
+                  <li><strong>Show tags</strong> - show/hide tags.</li>
+                  <li><strong>Show post navigation</strong> - show/hide post navigation.</li>
+                  <li><strong>Show "About the author" block</strong> - show/hide "About the author" section.</li>
+                  <li><strong>Show related posts (by tags)</strong> - show/hide related posts section.</li>
+                </ul>
+                <h4>Other Settings</h4>
+                <ul class="ul-large-indent mb-25">
+                  <li><strong>Enable hover effect for all content blocks</strong> - enable/disable hover effect for all content blocks.</li>
+                  <li><strong>Add "data-no-retina" attribute to all images (fixes retina.js 404 errors)</strong> - enable this option if you want to fix retina.js 404 errors (more about it you can find <a href="https://github.com/imulus/retinajs/issues/231" target="_blank" title="Retina js 404 errors">here</a>).</li>
+                </ul>
+                <figure class="content-section-image mb-40">
+                  <a href="assets/img/screenshots/3_customize_general_settings.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/3_customize_general_settings.png" alt="General Settings">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+
+                <!-- Footer -->
+                <h3 id="customize-footer" class="content-section-heading">3. Footer</h3>
+                <h4>Footer Widgets</h4>
+                <ul class="ul-large-indent">
+                  <li><strong>Footer Widgets Height, px</strong> - enter widgets height (optional). Note: I recommend to use this option only if you have 3 widgets in the footer and you want that all these widgets had the same height.</li>
+                </ul>
+                <h4>Copyright</h4>
+                <ul class="ul-large-indent">
+                  <li><strong>Copyright Text</strong> - enter your copyright information (or other text). Allowed HTML Tags: &lt;a&gt;, &lt;span&gt;, &lt;strong&gt;, &lt;b&gt;, &lt;em&gt;, &lt;i&gt;, &lt;br&gt;. Allowed Attributes: <strong>&lt;a&gt;</strong>: href, title, target, class; <strong>&lt;span&gt;</strong>: class; <strong>&lt;i&gt;</strong>: class.</li>
+                </ul>
+                <h4>Social Links & RSS</h4>
+                <ul class="ul-large-indent mb-25">
+                  <li><strong>Twitter URL</strong> - link to your Twitter profile.</li>
+                  <li><strong>Facebook URL</strong> - link to your Facebook profile.</li>
+                  <li><strong>Google+ URL</strong> - link to your Google+ profile.</li>
+                  <li><strong>Pinterest URL</strong> - link to your Pinterest profile.</li>
+                  <li><strong>VK URL</strong> - link to your VKontakte profile.</li>
+                  <li><strong>Flickr URL</strong> - link to your Flickr profile.</li>
+                  <li><strong>Instagram URL</strong> - link to your Instagram profile.</li>
+                  <li><strong>500px URL</strong> - link to your 500px profile.</li>
+                  <li><strong>YouTube URL</strong> - link to your YouTube profile.</li>
+                  <li><strong>Vimeo URL</strong> - link to your Vimeo profile.</li>
+                  <li><strong>Soundcloud URL</strong> - link to your Soundcloud profile.</li>
+                  <li><strong>Dribbble URL</strong> - link to your Dribbble profile.</li>
+                  <li><strong>Behance URL</strong> - link to your Behance profile.</li>
+                  <li><strong>GitHub URL</strong> - link to your GitHub profile.</li>
+                  <li><strong>RSS URL</strong> - link to RSS feed.</li>
+                </ul>
+                <figure class="content-section-image mb-40">
+                  <a href="assets/img/screenshots/4_customize_footer.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/4_customize_footer.png" alt="Footer">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+
+                <!-- Font Family -->
+                <h3 id="customize-font-family" class="content-section-heading">4. Font Family</h3>
+                <ul class="ul-large-indent mb-25">
+                  <li><strong>Headings</strong> - this font will be used for all headings: h1, h2, h3, h4, h5, h6 (default value: Lato).</li>
+                  <li><strong>Content</strong> - this font will be used for all theme texts except headings, metadata, quotes, logo, and menu (default value: Lato).</li>
+                  <li><strong>Metadata</strong> - this font will be used for metadata: date, author, categories, tags, counters (default value: Lato).</li>
+                  <li><strong>Quotes (Blockquote Items)</strong> - this font will be used for blockquote item (&lt;blockquote&gt; tag; default value: Noto Serif).</li>
+                  <li><strong>Logo (Logo Type: Text)</strong> - this font will be used for your text logo (default value: Lato).</li>
+                  <li><strong>Menu</strong> - this font will be used for header menu (default value: Lato).</li>
+                  <li><strong>Character Sets</strong> - specify which subsets should be used. Multiple subsets should be separated with commas (<strong>,</strong>) and should be entered without spaces. Example: <strong>latin,cyrillic-ext,greek-ext,greek,vietnamese,cyrillic,latin-ext</strong> (default value: latin).</li>
+                </ul>
+                <figure class="content-section-image mb-40">
+                  <a href="assets/img/screenshots/5_customize_font_family.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/5_customize_font_family.png" alt="Font Family">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+
+                <!-- Font Size & Style -->
+                <h3 id="customize-font-size-style" class="content-section-heading">5. Font Size & Style</h3>
+                <h4>Main Content</h4>
+                <ul class="ul-large-indent">
+                  <li><strong>Content: Font Size, px</strong> - font size for all theme texts except listed below (default value: 16).</li>
+                </ul>
+                <h4>Text Logo</h4>
+                <ul class="ul-large-indent">
+                  <li><strong>Logo: Font Size, px (Logo Type: Text)</strong> - font size for logo (default value: 26).</li>
+                  <li><strong>Logo: Font Style (Logo Type: Text)</strong> - font style for logo (default value: Bold).</li>
+                </ul>
+                <h4>Menu</h4>
+                <ul class="ul-large-indent">
+                  <li><strong>Menu: Font Size, px</strong> - font size for menu items (default value: 16).</li>
+                  <li><strong>Menu: Font Style</strong> - font style for menu items (default value: Bold).</li>
+                  <li><strong>Submenu: Font Size, px</strong> - font size for submenu items (default value: 15).</li>
+                  <li><strong>Submenu: Font Style</strong> - font style for submenu items (default value: Bold).</li>
+                </ul>
+                <h4>Header Custom Text</h4>
+                <ul class="ul-large-indent">
+                  <li><strong>Header Custom Text: Title Font Size, px</strong> - font size for page title (default value: 66).</li>
+                  <li><strong>Header Custom Text: Title Font Style</strong> - font style for page title (default value: Bold).</li>
+                  <li><strong>Header Custom Text: Subtitle Font Size, px</strong> - font size for page subtitle (default value: 21).</li>
+                  <li><strong>Header Custom Text: Subtitle Font Style</strong> - font style for page subtitle (default value: Normal).</li>
+                </ul>
+                <h4>Blog Post</h4>
+                <ul class="ul-large-indent">
+                  <li><strong>Blog Post: Title Font Size, px</strong> - font size for post title (default value: 29).</li>
+                  <li><strong>Blog Post: Title Font Style</strong> - font style for post title (default value: Bold).</li>
+                  <li><strong>Blog Post: Metadata Font Size, px</strong> - font size for metadata: date and counters (default value: 12).</li>
+                  <li><strong>Blog Post: Metadata Font Style</strong> - font style for metadata (default value: Normal).</li>
+                  <li><strong>Blog Post: Metadata Text Transform</strong> - text transform for metadata (default value: Uppercase).</li>
+                </ul>
+                <h4>Single Page</h4>
+                <ul class="ul-large-indent">
+                  <li><strong>Single Page: Metadata Font Size, px</strong> - font size for metadata: author, date, categories, tags, and counters (default value: 16).</li>
+                  <li><strong>Single Page: Metadata Font Style</strong> - font style for metadata (default value: Normal).</li>
+                  <li><strong>Single Page: Metadata Text Transform</strong> - text transform for metadata (default value: None).</li>
+                </ul>
+                <h4>Sidebar & Widgets</h4>
+                <ul class="ul-large-indent mb-25">
+                  <li><strong>Widget Title Font Size, px</strong> - font size for widget title (default value: 22).</li>
+                  <li><strong>Widget Title Font Style</strong> - font style for widget title (default value: Bold).</li>
+                  <li><strong>Widget: Post Title Font Size, px</strong> - font size for post title (default value: 17).</li>
+                  <li><strong>Widget: Post Title Font Style</strong> - font style for post title (default value: Bold).</li>
+                  <li><strong>Widget: Metadata Font Size, px</strong> - font size for metadata: author, date, categories, and counters (default value: 12).</li>
+                  <li><strong>Widget: Metadata Font Style</strong> - font style for metadata (default value: Normal).</li>
+                  <li><strong>Widget: Metadata Text Transform</strong> - text transform for metadata (default value: None).</li>
+                </ul>
+                <figure class="content-section-image mb-40">
+                  <a href="assets/img/screenshots/6_customize_font_size_style.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/6_customize_font_size_style.png" alt="Font Size and Style">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+
+                <!-- Colors -->
+                <h3 id="customize-colors" class="content-section-heading">6. Colors</h3>
+                <ul class="ul-large-indent">
+                  <li><strong>Background Color</strong> - select your background color.</li>
+                  <li><strong>Main Color</strong> - select main color for your site (some hover colors and link colors you can set in settings below).</li>
+                </ul>
+                <h4>Header</h4>
+                <ul class="ul-large-indent">
+                  <li><strong>Header Background Color</strong> - background color for header section.</li>
+                  <li><strong>Header Background Transparency (1..9)</strong> - transparency value for header section (min=1, max=9).</li>
+                </ul>
+                <h4>Text Logo</h4>
+                <ul class="ul-large-indent">
+                  <li><strong>Logo Color</strong> - text color for logo (only if you are using a simple text logo).</li>
+                </ul>
+                <h4>Menu</h4>
+                <ul class="ul-large-indent">
+                  <li><strong>Menu Link Color</strong> - link color for menu items.</li>
+                  <li><strong>Menu Hover Link Color</strong> - link color for menu items on hover.</li>
+                  <li><strong>Submenu Background Color</strong> - background color for submenu section.</li>
+                  <li><strong>Submenu Link Color</strong> - link color for submenu section.</li>
+                  <li><strong>Submenu Hover Link Color</strong> - link color for submenu section on hover.</li>
+                  <li><strong>Mobile Menu Border Color</strong> - border color for mobile menu.</li>
+                </ul>
+                <h4>Dropdown Search Form</h4>
+                <ul class="ul-large-indent">
+                  <li><strong>Search Icon Color</strong> - color for search icon.</li>
+                  <li><strong>Search Icon Hover Color</strong> - hover color for search icon.</li>
+                  <li><strong>Search Form Background Color</strong> - background color for search form.</li>
+                  <li><strong>Search Form: Text Color 1</strong> - text color for <em>"Enter your search query..."</em> phrase.</li>
+                  <li><strong>Search Form: Text Color 2</strong> - text color for search form.</li>
+                  <li><strong>Search Form: Hover Text Color</strong> - hover color for search icon.</li>
+                  <li><strong>Search Form Border Color</strong> - bottom line color for search form.</li>
+                </ul>
+                <h4>Header Content</h4>
+                <ul class="ul-large-indent">
+                  <li><strong>Title Color</strong> - text color for page title.</li>
+                  <li><strong>Subtitle Color</strong> - text color for page subtitle.</li>
+                  <li><strong>Subtitle Link Color</strong> - link color for page subtitle.</li>
+                  <li><strong>Subtitle Hover Link Color</strong> - link color for page subtitle on hover.</li>
+                  <li><strong>Bottom Line Background Color</strong> - background color for bottom line.</li>
+                </ul>
+                <h4>Sticky Menu</h4>
+                <ul class="ul-large-indent">
+                  <li><strong>Sticky Menu Background Color</strong> - background color for sticky menu.</li>
+                  <li><strong>Sticky Menu Link Color</strong> - link color for menu items.</li>
+                  <li><strong>Sticky Menu Hover Link Color</strong> - link color for menu items on hover.</li>
+                </ul>
+                <h4>Content</h4>
+                <ul class="ul-large-indent">
+                  <li><strong>Content Background Color</strong> - background color for all sections with content: blog posts, widgets, etc.</li>
+                  <li><strong>Text Color 1</strong> - text color for all headings (h1, h2, h3, h4, h5, h6).</li>
+                  <li><strong>Text Color 2</strong> - text color for content.</li>
+                  <li><strong>Text Color 3</strong> - text color for metadata.</li>
+                  <li><strong>Link Color</strong> - text color for links located inside a post.</li>
+                  <li><strong>Hover Link Color</strong> - hover color for links located inside a post.</li>
+                  <li><strong>Line Color</strong> - color for all lines.</li>
+                  <li><strong>Featured Media: Hover Background Color</strong> - hover background color for featured media (featured image/gallery images).</li>
+                </ul>
+                <h4>Footer Widgets</h4>
+                <ul class="ul-large-indent">
+                  <li><strong>Footer Widgets Section: Background Color</strong> - background color for footer widgets section.</li>
+                  <li><strong>Footer Widgets: Text Color 1</strong> - text color for all headings (h1, h2, h3, h4, h5, h6).</li>
+                  <li><strong>Footer Widgets: Text Color 2</strong> - text color for content.</li>
+                  <li><strong>Footer Widgets: Text Color 3</strong> - text color for metadata: author, date, categories, and counters.</li>
+                  <li><strong>Footer Widgets: Hover Color</strong> - hover color for links.</li>
+                  <li><strong>Footer Widgets: Line Color</strong> - lines color for footer widgets section.</li>
+                  <li><strong>Footer Widgets: Thumbnail Hover Background Color</strong> - hover background color for thumbnails.</li>
+                </ul>
+                <h4>Footer</h4>
+                <ul class="ul-large-indent mb-25">
+                  <li><strong>Footer Background Color</strong> - background color for footer section.</li>
+                  <li><strong>Footer Text Color</strong> - text color for copyright information.</li>
+                  <li><strong>Footer Link Color</strong> - link color for footer section.</li>
+                  <li><strong>Footer Hover Link Color</strong> - link color for footer section on hover.</li>
+                  <li><strong>Social Icon Color</strong> - color for social icons.</li>
+                  <li><strong>Social Icon Hover Color</strong> - hover color for social icons.</li>
+                </ul>
+                <figure class="content-section-image mb-40">
+                  <a href="assets/img/screenshots/7_customize_colors.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/7_customize_colors.png" alt="Colors">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+
+                <!-- Header Image -->
+                <h3 id="customize-header-image" class="content-section-heading">7. Header Image</h3>
+                <ul class="ul-large-indent mb-25">
+                  <li><strong>Current header</strong> - here you can upload an image for the header. This image will be used by default for the whole site, except posts and pages, which have their own images (or video backgrounds) for the header.</li>
+                </ul>
+                <figure class="content-section-image mb-40">
+                  <a href="assets/img/screenshots/8_customize_header_image.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/8_customize_header_image.png" alt="Header Image">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+
+                <!-- Header Video -->
+                <h3 id="customize-header-video" class="content-section-heading">8. Header Video</h3>
+                <div class="alert alert-info" role="alert">
+                  <strong>Important!</strong> For video settings the following options must be set to: <strong>General Settings > Header Type > Header with animation</strong> and <strong>General Settings > Header Background Type > Video</strong>.
+                </div>
+                <div class="alert alert-info" role="alert">
+                  <strong>Note</strong>. Mobile devices do not support Video backgrounds. On mobile devices will be displayed an image that you selected for this video.
+                </div>
+                <ul class="ul-large-indent mb-25">
+                  <li><strong>Video Type</strong> - choose between <strong>YouTube</strong> and <strong>Vimeo</strong> options.</li>
+                  <li><strong>Video ID</strong> - enter YouTube or Vimeo video ID. You can take it from your browser navigation bar when viewing a video on YouTube or Vimeo. Example: <em>03jJHUQovp0</em> (YouTube video ID), <em>69445362</em> (Vimeo video ID).</li>
+                  <li><strong>Image For Your Video</strong> - here you can upload an image for your video. This image will be displayed before the video plays. On mobile devices this image will be displayed instead of the video.</li>
+                  <li><strong>Video Start Time, sec. (Example: 00:05)</strong> - at which sec. the video should start (also force rewind will rewind the video back to this position). 00:05 means start at the 5th sec. An exact position is not always possible. The next best frame will be picked around the defined time position.</li>
+                  <li><strong>Video End Time, sec. (Example: 01:25)</strong> - at which sec. the video should stop. 00:05 means end at the 5th sec. An exact position is not always possible. The next best frame will be picked around the defined time position. Don't define this value in case you don't want a different end than the real length of the video.</li>
+                  <li><strong>Video Aspect Ratio</strong> - the aspect ratio of the video. It helps to pre size the video before the Meta has been read. Available values: <em>4:3</em> and <em>16:9</em>.</li>
+                  <li><strong>Video Volume (0..100)</strong> - sets the start volume of the video. It is advised to set Main Background Video volumes to <em>"0" (mute)</em>. 100 is the max. volume.</li>
+                </ul>
+                <figure class="content-section-image mb-40">
+                  <a href="assets/img/screenshots/9_customize_header_video.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/9_customize_header_video.png" alt="Header Video">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+
+                <!-- Background Image -->
+                <h3 id="customize-background-image" class="content-section-heading">9. Background Image</h3>
+                <ul class="ul-large-indent mb-25">
+                  <li><strong>Background Image</strong> - upload image for background.</li>
+                  <li><strong>Background Repeat</strong> - choose background repeat.</li>
+                  <li><strong>Background Position</strong> - choose background position.</li>
+                  <li><strong>Background Attachment</strong> - choose background attachment.</li>
+                </ul>
+                <figure class="content-section-image mb-40">
+                  <a href="assets/img/screenshots/10_customize_bg_image.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/10_customize_bg_image.png" alt="Background Image">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+
+                <!-- Custom CSS -->
+                <h3 id="customize-css" class="content-section-heading">10. Custom CSS / Additional CSS</h3>
+                <ul class="ul-large-indent mb-25">
+                  <li>Here you can add your own CSS code. This setting is necessary if you want to change something on your site that is not available in theme options, for example: font size, font style, color, margin, or some other customization. <strong>Note: In WordPress 4.7.x you need to use the Additional CSS section instead of the Custom CSS section</strong>.</li>
+                </ul>
+                <figure class="content-section-image mb-none">
+                  <a href="assets/img/screenshots/11_customize_css.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/11_customize_css.png" alt="Custom CSS">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+
+              </div>
+            </div>
+            <!-- *************************
+            end Theme Customization
+            ************************* -->
+
+            <!-- *************************
+            8 - Translation
+            ************************* -->
+            <div id="translation-section">
+
+              <div class="content-section">
+                <h2 class="content-section-heading ta-center">Translation</h2>
+                <p>To translate this theme, I recommend using the <strong>.mo</strong> and <strong>.po</strong> files. These files work in pairs, so for each language you need to have 2 files with the same name but a different extension. For example, if you want to translate the theme into Turkish language, your files would be <strong>tr_TR.mo</strong> and <strong>tr_TR.po</strong>.</p>
+                <p>At first, you need to create these files. For this you need to use <strong>Poedit</strong> software which is very easy to use. You can download it <a href="https://poedit.net" target="_blank" title="Poedit"><strong>here</strong></a>. After installation Poedit software, you need to run it. Then, in Poedit go to <strong>File <i class="fa fa-long-arrow-right"></i> New from POT/PO file...</strong>, select and open the pot file from the <strong>"languages"</strong> folder (<strong>/languages/melissa.pot</strong>). After that you just need to select your language, add translation, and save your changes.</p>
+                <p>Now you have <strong>.mo</strong> and <strong>.po</strong> files with your translation, and all you need to do is upload these both files into the <strong>"languages"</strong> folder on your server (<strong>/wp-content/themes/melissa/languages/</strong>).</p>
+              </div>
+
+            </div>
+            <!-- *************************
+            end Translation
+            ************************* -->
+
+            <!-- *************************
+            9 - Importing Demo Data
+            ************************* -->
+            <div id="importing-demo-data-section">
+
+              <div class="content-section">
+                <h2 class="content-section-heading ta-center">Importing Demo Data</h2>
+                <div class="alert alert-info mb-30" role="alert">
+                  Remember that installing the demo data will not instantly give you a site as my demo. The demo data includes only posts, pages, comments, categories, and tags.
+                </div>
+                <p>In the theme main files, that you have downloaded from ThemeForest, you can find a folder labeled <strong>"Demo Content"</strong> which contains an export file. This file you can use to import the demo data to your site. To do this, you need to perform a few simple steps.</p>
+
+                <p><strong>Step 1.</strong> Navigate to <strong>Tools <i class="fa fa-long-arrow-right"></i> Import</strong>.</p>
+                <p class="mb-25"><strong>Step 2.</strong> Now you need to install the <strong>WordPress Importer</strong> plugin. Click on the <strong>Install Now</strong> link.</p>
+                <figure class="content-section-image">
+                  <a href="assets/img/screenshots/import_1.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/import_1.png" alt="Importing Demo Data - 1">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+
+                <p class="mb-25"><strong>Step 3.</strong> After the installation is complete, click on the <strong>Run Importer</strong> link.</p>
+                <figure class="content-section-image">
+                  <a href="assets/img/screenshots/import_2.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/import_2.png" alt="Importing Demo Data - 2">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+
+                <p><strong>Step 4.</strong> Next, press <strong>Choose file</strong> button and select the <strong>"melissa-demo-data.xml"</strong> file from the <strong>"Demo Content"</strong> folder (<strong>/Demo Content/melissa-demo-data.xml</strong>).</p>
+                <p class="mb-25"><strong>Step 5.</strong> Press <strong>Upload file and import</strong> button.</p>
+                <figure class="content-section-image">
+                  <a href="assets/img/screenshots/import_3.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/import_3.png" alt="Importing Demo Data - 3">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+
+                <p><strong>Step 6.</strong> After you will then be offered to Assign Authors. You can read the description at the top as this explains everything.</p>
+                <p><strong>Step 7.</strong> Check the box <strong>"Download and import file attachments"</strong>. This will download attachments for images included in the live preview demo.</p>
+                <p class="mb-25"><strong>Step 8.</strong> Press <strong>Submit</strong> button.</p>
+                <figure class="content-section-image">
+                  <a href="assets/img/screenshots/import_4.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/import_4.png" alt="Importing Demo Data - 4">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+
+                <p class="mb-25">Now you need to wait for the importer to finish. This might take a few minutes depending on your hosting server speed.</p>
+                <figure class="content-section-image mb-none">
+                  <a href="assets/img/screenshots/import_5.png" rel="prettyPhoto">
+                    <img src="assets/img/screenshots/import_5.png" alt="Importing Demo Data - 5">
+                    <div class="img-bg-overlay transition-3"></div>
+                    <span class="expand-icon transition-3"><i class="fa fa-search-plus"></i></span>
+                  </a>
+                </figure>
+              </div>
+
+            </div>
+            <!-- *************************
+            end Importing Demo Data
+            ************************* -->
+
+            <!-- *************************
+            10 - Theme Support
+            ************************* -->
+            <div id="theme-support-section">
+
+              <div class="content-section">
+                <h2 class="content-section-heading ta-center">Support and Feedback</h2>
+                <p>All questions you can send via the contact form <a href="https://themeforest.net/user/birdwpthemes#contact" target="_blank" title="Contact"><strong>HERE</strong></a>.</p>
+                <p>I answer all questions every day from <strong>Monday to Friday from 8:00 to 18:00 (GMT+3)</strong> within 24-48h in the order they were received.</p>
+                <p class="mb-30">Please do not panic if I do not answer too long – <strong>I love my buyers and I’ll answer for all questions ;)</strong></p>
+                <h3 class="content-section-heading">Support for my items includes:</h3>
+                <ul class="mb-30">
+                  <li>Answering questions about how to use the item</li>
+                  <li>Answering technical questions about the item (and included third party assets)</li>
+                  <li>Help with defects in the item or included third party assets</li>
+                  <li>Item updates to ensure ongoing compatibility and to resolve security vulnerabilities</li>
+                </ul>
+                <h3 class="content-section-heading">Item support does not include:</h3>
+                <ul class="mb-30">
+                  <li>Item customization</li>
+                  <li>Installation of the item</li>
+                  <li>Hosting, server environment, or software</li>
+                  <li>Support for third party plug-ins</li>
+                  <li>Plugins integration</li>
+                  <li>WordPress General Support (use the <a href="https://wordpress.org/support/" target="_blank" title="WordPress Support">WordPress forums</a> for general WordPress support)</li>
+                  <li>Support for issues caused by user modifications in the theme’s code, styling and general functionality</li>
+                </ul>
+                <div class="alert alert-info mb-30" role="alert">
+                  <strong>Note.</strong> If you have any problems, firstly try deactivate all your plugins (exceptions - plugins that are part of the theme, or required plugins) and check - resolves this issue or not. If that resolves the issue, reactivate each one individually until you find the cause.
+                </div>
+                <div class="alert alert-info" role="alert">
+                  More information about the terms of support you can see here: <a href="https://themeforest.net/page/item_support_policy" target="_blank" class="alert-link" title="Item Support Policy">https://themeforest.net/page/item_support_policy</a>
+                </div>
+              </div>
+
+            </div>
+            <!-- *************************
+            end Theme Support
+            ************************* -->
+
+            <!-- *************************
+            11 - Credits
+            ************************* -->
+            <div id="credits-section">
+
+              <div class="content-section">
+                <h2 class="content-section-heading ta-center">Credits</h2>
+                <h3 class="content-section-heading">Thanks so much:</h3>
+                <ul class="mb-30">
+                  <li><a href="http://getbootstrap.com" target="_blank">Bootstrap</a> - Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.</li>
+                  <li><a href="http://imulus.github.io/retinajs/" target="_blank">Retina.js</a> - Retina.js is an open source script that makes it easy to serve high-resolution images to devices with retina displays.</li>
+                  <li><a href="http://users.tpg.com.au/j_birch/plugins/superfish/" target="_blank">jQuery Superfish Menu Plugin</a> from <a href="https://github.com/joeldbirch" target="_blank">Joel Birch</a> - Superfish is a jQuery plugin that adds usability enhancements to multi-level drop-down menus. Fully supports touch devices and keyboard interaction.</li>
+                  <li><a href="https://codecanyon.net/item/slider-revolution-responsive-jquery-plugin/2580848" target="_blank">Slider Revolution Responsive jQuery Plugin</a> from <a href="https://codecanyon.net/user/themepunch" target="_blank">themepunch</a> - Slider Revolution is an innovative, responsive jQuery Slider Plugin that displays your content the beautiful way.</li>
+                  <li><a href="https://github.com/OwlFonk/OwlCarousel" target="_blank">OWL Carousel</a> - Touch enabled jQuery plugin that lets you create beautiful responsive carousel slider.</li>
+                  <li><a href="http://masonry.desandro.com" target="_blank">Masonry</a> - Cascading grid layout library.</li>
+                  <li><a href="http://imagesloaded.desandro.com" target="_blank">imagesLoaded</a> - Detect when images have been loaded.</li>
+                  <li><a href="http://dimsemenov.com/plugins/magnific-popup/" target="_blank">Magnific Popup</a> - Magnific Popup is a responsive lightbox & dialog script with focus on performance and providing best experience for user with any device.</li>
+                  <li><a href="http://www.infinite-scroll.com/infinite-scroll-jquery-plugin/" target="_blank">Infinite-scroll</a> - Infinite Scroll jQuery Plugin.</li>
+                  <li><a href="https://github.com/aFarkas/html5shiv" target="_blank">html5shiv.js</a> - This script is the defacto way to enable use of HTML5 sectioning elements in legacy Internet Explorer.</li>
+                  <li><a href="https://github.com/scottjehl/Respond" target="_blank">Respond.js</a> - A fast & lightweight polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more).</li>
+                  <li><a href="http://www.ianlunn.co.uk/plugins/jquery-parallax/" target="_blank">jQuery Parallax</a> from <a href="http://www.ianlunn.co.uk/" target="_blank">Ian Lunn</a>.</li>
+                  <li><a href="http://fontawesome.io" target="_blank">Font Awesome</a> - The iconic font and CSS toolkit.</li>
+                  <li><a href="https://metabox.io" target="_blank">Meta Box Plugin</a> - Meta Boxes and Custom Fields Plugin For WordPress.</li>
+                  <li><a href="http://tgmpluginactivation.com" target="_blank">TGM Plugin Activation</a> - TGM Plugin Activation is a PHP library that allows you to easily require or recommend plugins for your WordPress themes (and plugins).</li>
+                  <li><a href="https://github.com/JonMasterson/WordPress-Post-Like-System" target="_blank">Post Like System</a> from <a href="http://jonmasterson.com" target="_blank">JonMasterson</a> - Post Like System for WordPress.</li>
+                  <li><a href="https://github.com/fxbenard/Blank-WordPress-Pot" target="_blank">Blank WordPress Pot</a> - Blank WordPress Pot allows developers to have a great starting point for their translations' pot files and translators an explanation how to use the file.</li>
+                  <li><a href="https://www.google.com/fonts" target="_blank">Google Fonts</a> - Lato and Noto Serif.</li>
+                </ul>
+                <h3 class="content-section-heading">Images in the demo:</h3>
+                <ul class="mb-30">
+                  <li><a href="https://picjumbo.com" target="_blank">picjumbo</a></li>
+                  <li><a href="http://www.splitshire.com" target="_blank">SplitShire</a></li>
+                  <li><a href="https://unsplash.com" target="_blank">Unsplash</a></li>
+                </ul>
+                <h3 class="content-section-heading">Audio and Video:</h3>
+                <ul>
+                  <li><a href="https://www.youtube.com/watch?v=8dTzy_N0Pn4" target="_blank">The World is Beautiful (Timelapse & Hyperlapse)</a> from <a href="https://www.youtube.com/channel/UCSNUw74Ew6YxT4yHrQsie4Q" target="_blank">Seiswell</a></li>
+                  <li><a href="https://vimeo.com/82642494" target="_blank">Dartmoor Timelapse Trailer</a> from <a href="https://vimeo.com/dartmoortimelapse" target="_blank">Dartmoor Timelapse</a></li>
+                  <li><a href="https://www.youtube.com/watch?v=ByOPXIHaVfQ" target="_blank">Envato Stories - Ibrahim Rodríguez</a> from <a href="https://www.youtube.com/channel/UCJr72fY4cTaNZv7WPbvjaSw" target="_blank">Envato</a></li>
+                  <li><a href="https://www.youtube.com/watch?v=hpeYWdkUtcE" target="_blank">Envato Stories - Calin Teodorescu</a> from <a href="https://www.youtube.com/channel/UCJr72fY4cTaNZv7WPbvjaSw" target="_blank">Envato</a></li>
+                  <li><a href="https://soundcloud.com/lilypichu/song-of-storms-piano-again" target="_blank">Song of storms piano again</a> from <a href="https://soundcloud.com/lilypichu" target="_blank">lilypichu</a></li>
+                </ul>
+              </div>
+
+            </div>
+            <!-- *************************
+            end Credits
+            ************************* -->
+
+            <div class="alert alert-success mt-60 mb-60" role="alert">
+              Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and ask your question there.
+            </div>
+
+          </div>
+        </div>
+        <!-- end documentation content -->
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end content -->
+
+<!-- footer -->
+<footer id="docs-footer" role="contentinfo">
+  <div class="container">
+    <div class="docs-footer-container">
+      <p><a href="https://themeforest.net/item/melissa-personal-blogmagazine-wordpress-theme/18845806?ref=BirdwpThemes" target="_blank" title="Melissa">Melissa</a> WordPress Theme <i class="fa fa-copyright"></i> 2017 / <a href="https://themeforest.net/user/birdwpthemes" target="_blank">BirdwpThemes</a></p>
+    </div>
+  </div>
+</footer>
+<!-- end footer -->
+
+<!-- JS
+================================================== -->
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+<script src="assets/plugins/prettyPhoto/js/jquery.prettyPhoto.js"></script>
+<script src="assets/js/documentation.js"></script>
+
+</body>
+</html>

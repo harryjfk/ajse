@@ -1,0 +1,2083 @@
+# Melissa Pot File
+msgid ""
+msgstr ""
+"Project-Id-Version: Melissa Pot v1.1.5\n"
+"POT-Creation-Date: 2018-06-06 16:55+0300\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: Your Team <translations@example.com>\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yes"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-Bookmarks: \n"
+
+#: 404.php:18
+msgid "Oops... Error 404"
+msgstr ""
+
+#: 404.php:19
+msgid "We are sorry, but the page you are looking for does not exist."
+msgstr ""
+
+#: 404.php:20
+#, php-format
+msgid ""
+"Please check entered address and try again or go to <a href=\"%1$s\" rel="
+"\"home\">homepage</a>."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:327 assets/plugin-activation.php:50
+msgid "Install Required Plugins"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:328 assets/plugin-activation.php:51
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: assets/class-tgm-plugin-activation.php:330 assets/plugin-activation.php:53
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: assets/class-tgm-plugin-activation.php:332 assets/plugin-activation.php:55
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:333 assets/plugin-activation.php:56
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: assets/class-tgm-plugin-activation.php:336 assets/plugin-activation.php:59
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: assets/class-tgm-plugin-activation.php:342 assets/plugin-activation.php:65
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: assets/class-tgm-plugin-activation.php:348 assets/plugin-activation.php:71
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: assets/class-tgm-plugin-activation.php:354 assets/plugin-activation.php:77
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: assets/class-tgm-plugin-activation.php:360 assets/plugin-activation.php:83
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: assets/class-tgm-plugin-activation.php:366 assets/plugin-activation.php:89
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/class-tgm-plugin-activation.php:371 assets/plugin-activation.php:94
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/class-tgm-plugin-activation.php:376 assets/plugin-activation.php:99
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/class-tgm-plugin-activation.php:381 assets/plugin-activation.php:104
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/class-tgm-plugin-activation.php:385 assets/plugin-activation.php:108
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:386
+#: assets/class-tgm-plugin-activation.php:827
+#: assets/class-tgm-plugin-activation.php:2533
+#: assets/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:387
+#: assets/class-tgm-plugin-activation.php:3159 assets/plugin-activation.php:109
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:388
+#: assets/class-tgm-plugin-activation.php:2952 assets/plugin-activation.php:110
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: assets/class-tgm-plugin-activation.php:390 assets/plugin-activation.php:112
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: assets/class-tgm-plugin-activation.php:392 assets/plugin-activation.php:114
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: assets/class-tgm-plugin-activation.php:394 assets/plugin-activation.php:116
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:395 assets/plugin-activation.php:117
+msgid "Dismiss this notice"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:396 assets/plugin-activation.php:118
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:397 assets/plugin-activation.php:119
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:934
+#: assets/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:1121
+#: assets/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: assets/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: assets/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: assets/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: assets/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: assets/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: assets/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: assets/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: assets/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: assets/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: assets/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: assets/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: assets/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: assets/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: assets/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: assets/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: assets/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: assets/customizer.php:137
+msgid "Retina Logo (optional)"
+msgstr ""
+
+#: assets/customizer.php:153 assets/theme-meta-boxes.php:23
+msgid "General Settings"
+msgstr ""
+
+#: assets/customizer.php:177 assets/customizer.php:2396
+#: assets/theme-meta-boxes.php:89 assets/theme-meta-boxes.php:515
+msgid "Header"
+msgstr ""
+
+#: assets/customizer.php:197
+msgid "Header Type"
+msgstr ""
+
+#: assets/customizer.php:200
+msgid "Simple header (without animation)"
+msgstr ""
+
+#: assets/customizer.php:201
+msgid "Header with animation"
+msgstr ""
+
+#: assets/customizer.php:210
+msgid ""
+"<b>Simple header</b> - This header type does not support animation and video "
+"background. But it supports parallax effect and reduces page load time."
+"<br><b>Header with animation</b> - This header type supports animation, "
+"parallax effect, and video background."
+msgstr ""
+
+#: assets/customizer.php:220
+msgid "Header Types - Description"
+msgstr ""
+
+#: assets/customizer.php:240
+msgid "Header Background Type (Header Type: Header with animation)"
+msgstr ""
+
+#: assets/customizer.php:243 assets/customizer.php:331
+#: assets/theme-meta-boxes.php:133 assets/theme-meta-boxes.php:559
+msgid "Image"
+msgstr ""
+
+#: assets/customizer.php:244 assets/theme-meta-boxes.php:134
+#: assets/theme-meta-boxes.php:560
+msgid "Video"
+msgstr ""
+
+#: assets/customizer.php:253
+msgid ""
+"You can set an image or a video in one of the following customizer sections: "
+"<b>Header Image</b> or <b>Header Video</b>."
+msgstr ""
+
+#: assets/customizer.php:263
+msgid "Header Background Type - Description"
+msgstr ""
+
+#: assets/customizer.php:283
+msgid "Show search icon"
+msgstr ""
+
+#: assets/customizer.php:307
+msgid "Logo"
+msgstr ""
+
+#: assets/customizer.php:327
+msgid "Logo Type"
+msgstr ""
+
+#: assets/customizer.php:330
+msgid "Text"
+msgstr ""
+
+#: assets/customizer.php:340
+msgid ""
+"You can add an image for your logo in the <b>Site Identity</b> section: "
+"<b>Site Identity</b> > <b>Logo</b>."
+msgstr ""
+
+#: assets/customizer.php:350
+msgid "Logo Type - Description"
+msgstr ""
+
+#: assets/customizer.php:369
+msgid "Text for Logo (Logo Type: Text)"
+msgstr ""
+
+#: assets/customizer.php:394 assets/customizer.php:1888
+msgid "Header Custom Text"
+msgstr ""
+
+#: assets/customizer.php:413
+msgid "Custom Title"
+msgstr ""
+
+#: assets/customizer.php:423
+msgid ""
+"<b>Custom Title - Allowed HTML Tags</b>: span, strong, b, em, i."
+"<br><b>Custom Title - Allowed Attributes</b>: <b>span</b>: class. <b>i</b>: "
+"class."
+msgstr ""
+
+#: assets/customizer.php:433
+msgid "Custom Title - Allowed HTML Tags"
+msgstr ""
+
+#: assets/customizer.php:452
+msgid "Custom Text"
+msgstr ""
+
+#: assets/customizer.php:462
+msgid ""
+"<b>Custom Text - Allowed HTML Tags</b>: a, span, strong, b, em, i, br."
+"<br><b>Custom Text - Allowed Attributes</b>: <b>a</b>: href, title, target, "
+"class. <b>span</b>: class. <b>i</b>: class."
+msgstr ""
+
+#: assets/customizer.php:472
+msgid "Custom Text - Allowed HTML Tags"
+msgstr ""
+
+#: assets/customizer.php:498 assets/customizer.php:2967
+msgid "Sticky Menu"
+msgstr ""
+
+#: assets/customizer.php:518
+msgid "Enable sticky menu"
+msgstr ""
+
+#: assets/customizer.php:542
+msgid "Blog"
+msgstr ""
+
+#: assets/customizer.php:562
+msgid "Blog Layout"
+msgstr ""
+
+#: assets/customizer.php:565
+msgid "3 Columns"
+msgstr ""
+
+#: assets/customizer.php:566
+msgid "2 Columns + Left sidebar"
+msgstr ""
+
+#: assets/customizer.php:567
+msgid "2 Columns + Right sidebar"
+msgstr ""
+
+#: assets/customizer.php:568
+msgid "2 Columns"
+msgstr ""
+
+#: assets/customizer.php:569
+msgid "1 Column + Left sidebar"
+msgstr ""
+
+#: assets/customizer.php:570
+msgid "1 Column + Right sidebar"
+msgstr ""
+
+#: assets/customizer.php:571
+msgid "1 Column"
+msgstr ""
+
+#: assets/customizer.php:589
+msgid "Pagination Type"
+msgstr ""
+
+#: assets/customizer.php:592
+msgid "Standard pagination"
+msgstr ""
+
+#: assets/customizer.php:593
+msgid "Next/Previous page links"
+msgstr ""
+
+#: assets/customizer.php:594
+msgid "Infinite scroll"
+msgstr ""
+
+#: assets/customizer.php:595
+msgid "Load More button"
+msgstr ""
+
+#: assets/customizer.php:613
+msgid "Links Open in... (Target Attribute)"
+msgstr ""
+
+#: assets/customizer.php:616 assets/theme-meta-boxes.php:432
+msgid "New tab (_blank)"
+msgstr ""
+
+#: assets/customizer.php:617 assets/theme-meta-boxes.php:431
+msgid "Current tab (_self)"
+msgstr ""
+
+#: assets/customizer.php:635
+msgid "Use Excerpt or \"Read More tag\""
+msgstr ""
+
+#: assets/customizer.php:638
+msgid "Excerpt"
+msgstr ""
+
+#: assets/customizer.php:639
+msgid "Read More tag"
+msgstr ""
+
+#: assets/customizer.php:648
+msgid ""
+"<b>Note:</b> Some post formats always show a content with the <b>\"Read More "
+"tag\"</b>, so the <b>\"Excerpt\"</b> option does not apply to these formats: "
+"<b>Aside</b>, <b>Link</b>, <b>Status</b>, <b>Chat</b>, and <b>Quote</b>."
+msgstr ""
+
+#: assets/customizer.php:658
+msgid "Excerpt Type Option - Description"
+msgstr ""
+
+#: assets/customizer.php:679
+msgid "Excerpt Length (Number of Words)"
+msgstr ""
+
+#: assets/customizer.php:699
+msgid "Increase all small featured images"
+msgstr ""
+
+#: assets/customizer.php:717
+msgid ""
+"Show icon and transparent dark background when you hover on featured images"
+msgstr ""
+
+#: assets/customizer.php:735 assets/customizer.php:905
+#: assets/widgets/melissa-popular-posts.php:74
+#: assets/widgets/melissa-posts-list.php:70
+#: assets/widgets/melissa-posts-slider.php:78
+#: assets/widgets/melissa-random-posts.php:69
+#: assets/widgets/melissa-recent-posts.php:69
+msgid "Show date"
+msgstr ""
+
+#: assets/customizer.php:753 assets/customizer.php:833
+msgid "Show views counter"
+msgstr ""
+
+#: assets/customizer.php:771 assets/customizer.php:869
+msgid "Show likes counter"
+msgstr ""
+
+#: assets/customizer.php:795
+msgid "Single Post Page"
+msgstr ""
+
+#: assets/customizer.php:815
+msgid "Show social sharing buttons"
+msgstr ""
+
+#: assets/customizer.php:851
+msgid "Show comments counter"
+msgstr ""
+
+#: assets/customizer.php:887 assets/widgets/melissa-popular-posts.php:67
+#: assets/widgets/melissa-posts-list.php:63
+#: assets/widgets/melissa-posts-slider.php:71
+#: assets/widgets/melissa-random-posts.php:62
+#: assets/widgets/melissa-recent-posts.php:62
+msgid "Show author"
+msgstr ""
+
+#: assets/customizer.php:923 assets/widgets/melissa-popular-posts.php:81
+msgid "Show categories"
+msgstr ""
+
+#: assets/customizer.php:941
+msgid "Show tags"
+msgstr ""
+
+#: assets/customizer.php:959
+msgid "Show post navigation"
+msgstr ""
+
+#: assets/customizer.php:977
+msgid "Show \"About the author\" block"
+msgstr ""
+
+#: assets/customizer.php:995
+msgid "Show related posts (by tags)"
+msgstr ""
+
+#: assets/customizer.php:1019 assets/theme-meta-boxes.php:575
+msgid "Other Settings"
+msgstr ""
+
+#: assets/customizer.php:1039
+msgid "Enable hover effect for all content blocks"
+msgstr ""
+
+#: assets/customizer.php:1057
+msgid ""
+"Add \"data-no-retina\" attribute to all images (fixes retina.js 404 errors)"
+msgstr ""
+
+#: assets/customizer.php:1071 assets/customizer.php:3423
+msgid "Footer"
+msgstr ""
+
+#: assets/customizer.php:1090 assets/customizer.php:3250
+msgid "Footer Widgets"
+msgstr ""
+
+#: assets/customizer.php:1111
+msgid "Footer Widgets Height, px"
+msgstr ""
+
+#: assets/customizer.php:1132
+msgid "Copyright"
+msgstr ""
+
+#: assets/customizer.php:1151
+msgid "Copyright Text"
+msgstr ""
+
+#: assets/customizer.php:1161
+msgid ""
+"<b>Allowed HTML Tags</b>: a, span, strong, b, em, i, br.<br><b>Allowed "
+"Attributes</b>: <b>a</b>: href, title, target, class. <b>span</b>: class. "
+"<b>i</b>: class."
+msgstr ""
+
+#: assets/customizer.php:1171
+msgid "Copyright Text - Allowed HTML Tags"
+msgstr ""
+
+#: assets/customizer.php:1192
+msgid "Social Links & RSS"
+msgstr ""
+
+#: assets/customizer.php:1211 functions.php:1586
+msgid "Twitter URL"
+msgstr ""
+
+#: assets/customizer.php:1229 functions.php:1589
+msgid "Facebook URL"
+msgstr ""
+
+#: assets/customizer.php:1247 functions.php:1592
+msgid "Google+ URL"
+msgstr ""
+
+#: assets/customizer.php:1265 functions.php:1595
+msgid "Pinterest URL"
+msgstr ""
+
+#: assets/customizer.php:1283 functions.php:1598
+msgid "VK URL"
+msgstr ""
+
+#: assets/customizer.php:1301 functions.php:1601
+msgid "Flickr URL"
+msgstr ""
+
+#: assets/customizer.php:1319 functions.php:1604
+msgid "Instagram URL"
+msgstr ""
+
+#: assets/customizer.php:1337 functions.php:1607
+msgid "500px URL"
+msgstr ""
+
+#: assets/customizer.php:1355 functions.php:1610
+msgid "YouTube URL"
+msgstr ""
+
+#: assets/customizer.php:1373 functions.php:1613
+msgid "Vimeo URL"
+msgstr ""
+
+#: assets/customizer.php:1391 functions.php:1616
+msgid "Soundcloud URL"
+msgstr ""
+
+#: assets/customizer.php:1409 functions.php:1619
+msgid "Dribbble URL"
+msgstr ""
+
+#: assets/customizer.php:1427 functions.php:1622
+msgid "Behance URL"
+msgstr ""
+
+#: assets/customizer.php:1445 functions.php:1625
+msgid "GitHub URL"
+msgstr ""
+
+#: assets/customizer.php:1463
+msgid "RSS URL"
+msgstr ""
+
+#: assets/customizer.php:1482
+msgid "Font Family"
+msgstr ""
+
+#: assets/customizer.php:1500
+msgid "Headings"
+msgstr ""
+
+#: assets/customizer.php:1519 assets/customizer.php:3056
+msgid "Content"
+msgstr ""
+
+#: assets/customizer.php:1538
+msgid "Metadata"
+msgstr ""
+
+#: assets/customizer.php:1557
+msgid "Quotes (Blockquote Items)"
+msgstr ""
+
+#: assets/customizer.php:1576
+msgid "Logo (Logo Type: Text)"
+msgstr ""
+
+#: assets/customizer.php:1595 assets/customizer.php:1782
+#: assets/customizer.php:2511
+msgid "Menu"
+msgstr ""
+
+#: assets/customizer.php:1613
+msgid "Character Sets (Example: latin,cyrillic,cyrillic-ext)"
+msgstr ""
+
+#: assets/customizer.php:1627
+msgid "Normal"
+msgstr ""
+
+#: assets/customizer.php:1628
+msgid "Normal Italic"
+msgstr ""
+
+#: assets/customizer.php:1629
+msgid "Bold"
+msgstr ""
+
+#: assets/customizer.php:1630
+msgid "Bold Italic"
+msgstr ""
+
+#: assets/customizer.php:1635
+msgid "Capitalize"
+msgstr ""
+
+#: assets/customizer.php:1636
+msgid "Lowercase"
+msgstr ""
+
+#: assets/customizer.php:1637
+msgid "Uppercase"
+msgstr ""
+
+#: assets/customizer.php:1638
+msgid "None"
+msgstr ""
+
+#: assets/customizer.php:1645
+msgid "Font Size & Style"
+msgstr ""
+
+#: assets/customizer.php:1669
+msgid "Main Content"
+msgstr ""
+
+#: assets/customizer.php:1690
+msgid "Content: Font Size, px"
+msgstr ""
+
+#: assets/customizer.php:1716 assets/customizer.php:2464
+msgid "Text Logo"
+msgstr ""
+
+#: assets/customizer.php:1737
+msgid "Logo: Font Size, px (Logo Type: Text)"
+msgstr ""
+
+#: assets/customizer.php:1757
+msgid "Logo: Font Style (Logo Type: Text)"
+msgstr ""
+
+#: assets/customizer.php:1803
+msgid "Menu: Font Size, px"
+msgstr ""
+
+#: assets/customizer.php:1823
+msgid "Menu: Font Style"
+msgstr ""
+
+#: assets/customizer.php:1843
+msgid "Submenu: Font Size, px"
+msgstr ""
+
+#: assets/customizer.php:1863
+msgid "Submenu: Font Style"
+msgstr ""
+
+#: assets/customizer.php:1909
+msgid "Header Custom Text: Title Font Size, px"
+msgstr ""
+
+#: assets/customizer.php:1929
+msgid "Header Custom Text: Title Font Style"
+msgstr ""
+
+#: assets/customizer.php:1949
+msgid "Header Custom Text: Subtitle Font Size, px"
+msgstr ""
+
+#: assets/customizer.php:1969
+msgid "Header Custom Text: Subtitle Font Style"
+msgstr ""
+
+#: assets/customizer.php:1994
+msgid "Blog Post"
+msgstr ""
+
+#: assets/customizer.php:2015
+msgid "Blog Post: Title Font Size, px"
+msgstr ""
+
+#: assets/customizer.php:2035
+msgid "Blog Post: Title Font Style"
+msgstr ""
+
+#: assets/customizer.php:2055
+msgid "Blog Post: Metadata Font Size, px"
+msgstr ""
+
+#: assets/customizer.php:2075
+msgid "Blog Post: Metadata Font Style"
+msgstr ""
+
+#: assets/customizer.php:2094
+msgid "Blog Post: Metadata Text Transform"
+msgstr ""
+
+#: assets/customizer.php:2119
+msgid "Single Page"
+msgstr ""
+
+#: assets/customizer.php:2140
+msgid "Single Page: Metadata Font Size, px"
+msgstr ""
+
+#: assets/customizer.php:2160
+msgid "Single Page: Metadata Font Style"
+msgstr ""
+
+#: assets/customizer.php:2179
+msgid "Single Page: Metadata Text Transform"
+msgstr ""
+
+#: assets/customizer.php:2204
+msgid "Sidebar & Widgets"
+msgstr ""
+
+#: assets/customizer.php:2225
+msgid "Widget Title Font Size, px"
+msgstr ""
+
+#: assets/customizer.php:2245
+msgid "Widget Title Font Style"
+msgstr ""
+
+#: assets/customizer.php:2265
+msgid "Widget: Post Title Font Size, px"
+msgstr ""
+
+#: assets/customizer.php:2285
+msgid "Widget: Post Title Font Style"
+msgstr ""
+
+#: assets/customizer.php:2305
+msgid "Widget: Metadata Font Size, px"
+msgstr ""
+
+#: assets/customizer.php:2325
+msgid "Widget: Metadata Font Style"
+msgstr ""
+
+#: assets/customizer.php:2344
+msgid "Widget: Metadata Text Transform"
+msgstr ""
+
+#: assets/customizer.php:2370
+msgid "Main Color"
+msgstr ""
+
+#: assets/customizer.php:2417
+msgid "Header Background Color"
+msgstr ""
+
+#: assets/customizer.php:2438
+msgid "Header Background Transparency (1..9)"
+msgstr ""
+
+#: assets/customizer.php:2485
+msgid "Logo Color"
+msgstr ""
+
+#: assets/customizer.php:2532
+msgid "Menu Link Color"
+msgstr ""
+
+#: assets/customizer.php:2553
+msgid "Menu Hover Link Color"
+msgstr ""
+
+#: assets/customizer.php:2574
+msgid "Submenu Background Color"
+msgstr ""
+
+#: assets/customizer.php:2595
+msgid "Submenu Link Color"
+msgstr ""
+
+#: assets/customizer.php:2616
+msgid "Submenu Hover Link Color"
+msgstr ""
+
+#: assets/customizer.php:2637
+msgid "Mobile Menu Border Color"
+msgstr ""
+
+#: assets/customizer.php:2663
+msgid "Dropdown Search Form"
+msgstr ""
+
+#: assets/customizer.php:2684
+msgid "Search Icon Color"
+msgstr ""
+
+#: assets/customizer.php:2705
+msgid "Search Icon Hover Color"
+msgstr ""
+
+#: assets/customizer.php:2726
+msgid "Search Form Background Color"
+msgstr ""
+
+#: assets/customizer.php:2747
+msgid "Search Form: Text Color 1"
+msgstr ""
+
+#: assets/customizer.php:2768
+msgid "Search Form: Text Color 2"
+msgstr ""
+
+#: assets/customizer.php:2789
+msgid "Search Form: Hover Text Color"
+msgstr ""
+
+#: assets/customizer.php:2810
+msgid "Search Form Border Color"
+msgstr ""
+
+#: assets/customizer.php:2836
+msgid "Header Content"
+msgstr ""
+
+#: assets/customizer.php:2857
+msgid "Title Color"
+msgstr ""
+
+#: assets/customizer.php:2878
+msgid "Subtitle Color"
+msgstr ""
+
+#: assets/customizer.php:2899
+msgid "Subtitle Link Color"
+msgstr ""
+
+#: assets/customizer.php:2920
+msgid "Subtitle Hover Link Color"
+msgstr ""
+
+#: assets/customizer.php:2941
+msgid "Bottom Line Background Color"
+msgstr ""
+
+#: assets/customizer.php:2988
+msgid "Sticky Menu Background Color"
+msgstr ""
+
+#: assets/customizer.php:3009
+msgid "Sticky Menu Link Color"
+msgstr ""
+
+#: assets/customizer.php:3030
+msgid "Sticky Menu Hover Link Color"
+msgstr ""
+
+#: assets/customizer.php:3077
+msgid "Content Background Color"
+msgstr ""
+
+#: assets/customizer.php:3098
+msgid "Text Color 1"
+msgstr ""
+
+#: assets/customizer.php:3119
+msgid "Text Color 2"
+msgstr ""
+
+#: assets/customizer.php:3140
+msgid "Text Color 3"
+msgstr ""
+
+#: assets/customizer.php:3161
+msgid "Link Color"
+msgstr ""
+
+#: assets/customizer.php:3182
+msgid "Hover Link Color"
+msgstr ""
+
+#: assets/customizer.php:3203
+msgid "Line Color"
+msgstr ""
+
+#: assets/customizer.php:3224
+msgid "Featured Media: Hover Background Color"
+msgstr ""
+
+#: assets/customizer.php:3271
+msgid "Footer Widgets Section: Background Color"
+msgstr ""
+
+#: assets/customizer.php:3292
+msgid "Footer Widgets: Text Color 1"
+msgstr ""
+
+#: assets/customizer.php:3313
+msgid "Footer Widgets: Text Color 2"
+msgstr ""
+
+#: assets/customizer.php:3334
+msgid "Footer Widgets: Text Color 3"
+msgstr ""
+
+#: assets/customizer.php:3355
+msgid "Footer Widgets: Hover Color"
+msgstr ""
+
+#: assets/customizer.php:3376
+msgid "Footer Widgets: Line Color"
+msgstr ""
+
+#: assets/customizer.php:3397
+msgid "Footer Widgets: Thumbnail Hover Background Color"
+msgstr ""
+
+#: assets/customizer.php:3444
+msgid "Footer Background Color"
+msgstr ""
+
+#: assets/customizer.php:3465
+msgid "Footer Text Color"
+msgstr ""
+
+#: assets/customizer.php:3486
+msgid "Footer Link Color"
+msgstr ""
+
+#: assets/customizer.php:3507
+msgid "Footer Hover Link Color"
+msgstr ""
+
+#: assets/customizer.php:3528
+msgid "Social Icon Color"
+msgstr ""
+
+#: assets/customizer.php:3549
+msgid "Social Icon Hover Color"
+msgstr ""
+
+#: assets/customizer.php:3565 assets/theme-meta-boxes.php:178
+#: assets/theme-meta-boxes.php:630
+msgid "Header Video"
+msgstr ""
+
+#: assets/customizer.php:3574
+msgid ""
+"<b>Important!</b> For video settings the following options must be set to: "
+"<b>General Settings</b> > <b>Header Type</b> > <b>Header with animation</b> "
+"and <b>General Settings</b> > <b>Header Background Type</b> > <b>Video</b>."
+msgstr ""
+
+#: assets/customizer.php:3584
+msgid "Video Settings - Description"
+msgstr ""
+
+#: assets/customizer.php:3604
+msgid "Video Type"
+msgstr ""
+
+#: assets/customizer.php:3607 assets/theme-meta-boxes.php:193
+#: assets/theme-meta-boxes.php:645
+msgid "YouTube"
+msgstr ""
+
+#: assets/customizer.php:3608 assets/theme-meta-boxes.php:194
+#: assets/theme-meta-boxes.php:646
+msgid "Vimeo"
+msgstr ""
+
+#: assets/customizer.php:3625 assets/theme-meta-boxes.php:205
+#: assets/theme-meta-boxes.php:657
+msgid "Video ID"
+msgstr ""
+
+#: assets/customizer.php:3644
+msgid "Image For Your Video"
+msgstr ""
+
+#: assets/customizer.php:3663
+msgid "Video Start Time, sec. (Example: 00:05)"
+msgstr ""
+
+#: assets/customizer.php:3681
+msgid "Video End Time, sec. (Example: 01:25)"
+msgstr ""
+
+#: assets/customizer.php:3700
+msgid "Video Aspect Ratio"
+msgstr ""
+
+#: assets/customizer.php:3703 assets/theme-meta-boxes.php:256
+#: assets/theme-meta-boxes.php:708
+msgid "4:3"
+msgstr ""
+
+#: assets/customizer.php:3704 assets/theme-meta-boxes.php:257
+#: assets/theme-meta-boxes.php:709
+msgid "16:9"
+msgstr ""
+
+#: assets/customizer.php:3723
+msgid "Video Volume (0..100)"
+msgstr ""
+
+#: assets/customizer.php:3739
+msgid "Custom CSS"
+msgstr ""
+
+#: assets/customizer.php:3756
+msgid "Custom CSS Code"
+msgstr ""
+
+#: assets/plugin-activation.php:27
+msgid "Meta Box"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:37 assets/theme-meta-boxes.php:465
+msgid "Page Layout"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:42 assets/theme-meta-boxes.php:53
+#: assets/theme-meta-boxes.php:470 assets/theme-meta-boxes.php:479
+msgid "Layout"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:46 assets/theme-meta-boxes.php:474
+msgid "Right sidebar"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:47 assets/theme-meta-boxes.php:475
+msgid "Left sidebar"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:48 assets/theme-meta-boxes.php:476
+msgid "Full width"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:49
+msgid "Featured media - Right sidebar"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:50
+msgid "Featured media - Left sidebar"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:64
+msgid "Featured Media"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:69
+msgid "Show Featured media on the Single page"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:70
+msgid ""
+"Show or Hide Featured Image/Video/Audio on the Single post page. Default "
+"value: Show."
+msgstr ""
+
+#: assets/theme-meta-boxes.php:74 assets/theme-meta-boxes.php:500
+#: assets/theme-meta-boxes.php:587
+msgid "Show"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:75 assets/theme-meta-boxes.php:501
+#: assets/theme-meta-boxes.php:588
+msgid "Hide"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:78 assets/theme-meta-boxes.php:504
+#: assets/theme-meta-boxes.php:591
+msgid "Show / Hide"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:97 assets/theme-meta-boxes.php:523
+msgid "Subtitle"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:98
+msgid ""
+"Appears on the Single post page under its Title. Allowed HTML Tags: &lt;"
+"a&gt;, &lt;span&gt;, &lt;strong&gt;, &lt;b&gt;, &lt;em&gt;, &lt;i&gt;, &lt;"
+"br&gt;. Allowed Attributes: &lt;a&gt;: href, title, target, class; &lt;"
+"span&gt;: class; &lt;i&gt;: class."
+msgstr ""
+
+#: assets/theme-meta-boxes.php:110
+msgid "Header background for this post"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:111
+msgid ""
+"You can select what you want to see in the header for this post: default "
+"background or own background for this post. Default value: Default "
+"background."
+msgstr ""
+
+#: assets/theme-meta-boxes.php:115 assets/theme-meta-boxes.php:541
+msgid "Default background"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:116 assets/theme-meta-boxes.php:542
+msgid "Own background"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:120 assets/theme-meta-boxes.php:546
+msgid "Default/Own background"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:128 assets/theme-meta-boxes.php:554
+msgid "Header background type"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:129
+msgid ""
+"This option is only for the second header type: Appearance > Customize > "
+"General Settings > Header Type > Header with animation. You can set an image "
+"or a video for this post in one of the following sections: \"Header Image\" "
+"or \"Header Video\". You can see these sections below. Also, the option "
+"\"Header background for this post\" must be set to \"Own background\"."
+msgstr ""
+
+#: assets/theme-meta-boxes.php:138 assets/theme-meta-boxes.php:564
+msgid "Image / Video"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:151 assets/theme-meta-boxes.php:604
+msgid "Header Image"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:162 assets/theme-meta-boxes.php:615
+msgid "Upload header image"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:189 assets/theme-meta-boxes.php:641
+msgid "Video type"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:197 assets/theme-meta-boxes.php:649
+msgid "YouTube / Vimeo"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:207 assets/theme-meta-boxes.php:659
+msgid ""
+"You can take it from your browser navigation bar when viewing a video on "
+"YouTube or Vimeo. Example: 03jJHUQovp0 (YouTube video ID), 69445362 (Vimeo "
+"video ID)."
+msgstr ""
+
+#: assets/theme-meta-boxes.php:217 assets/theme-meta-boxes.php:669
+msgid "Image for your video"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:228 assets/theme-meta-boxes.php:680
+msgid "Video start time, sec."
+msgstr ""
+
+#: assets/theme-meta-boxes.php:230 assets/theme-meta-boxes.php:682
+msgid "Example: 00:05"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:240 assets/theme-meta-boxes.php:692
+msgid "Video end time, sec."
+msgstr ""
+
+#: assets/theme-meta-boxes.php:242 assets/theme-meta-boxes.php:694
+msgid "Example: 01:25"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:252 assets/theme-meta-boxes.php:704
+msgid "Video aspect ratio"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:260 assets/theme-meta-boxes.php:712
+msgid "4:3 / 16:9"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:268 assets/theme-meta-boxes.php:720
+msgid "Video volume (0..100)"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:287
+msgid "Gallery Format"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:298 assets/theme-meta-boxes.php:341
+#: assets/theme-meta-boxes.php:384
+msgid "Thumbnail type"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:302 assets/theme-meta-boxes.php:346
+#: assets/theme-meta-boxes.php:389 assets/theme-meta-boxes.php:490
+msgid "Featured Image"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:303
+msgid "Slider"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:306
+msgid "Featured Image / Slider"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:314
+msgid "Add Images for the Gallery"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:330
+msgid "Video Format"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:345
+msgid "Video player (Iframe)"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:349
+msgid "Video player / Featured Image"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:357
+msgid "Video URL"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:359
+msgid ""
+"Insert a link (URL) on a video from the popular video hosting (YouTube, "
+"Vimeo and etc.)"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:373
+msgid "Audio Format"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:388
+msgid "Audio player (Iframe)"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:392
+msgid "Audio player / Featured Image"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:400
+msgid "SoundCloud URL"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:402
+msgid "Insert a link (URL) on a song from the SoundCloud service"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:416
+msgid "Link Format"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:427
+msgid "Link open in... (Target attribute)"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:435
+msgid "Current tab / New tab"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:451
+msgid "Page Settings"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:495
+msgid "Show Featured image on the Page"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:496
+msgid "Show or Hide Featured image on the page. Default value: Show."
+msgstr ""
+
+#: assets/theme-meta-boxes.php:524
+msgid ""
+"Appears on the page under its Title. Allowed HTML Tags: &lt;a&gt;, &lt;"
+"span&gt;, &lt;strong&gt;, &lt;b&gt;, &lt;em&gt;, &lt;i&gt;, &lt;br&gt;. "
+"Allowed Attributes: &lt;a&gt;: href, title, target, class; &lt;span&gt;: "
+"class; &lt;i&gt;: class."
+msgstr ""
+
+#: assets/theme-meta-boxes.php:536
+msgid "Header background for this page"
+msgstr ""
+
+#: assets/theme-meta-boxes.php:537
+msgid ""
+"You can select what you want to see in the header for this page: default "
+"background or own background for this page. Default value: Default "
+"background."
+msgstr ""
+
+#: assets/theme-meta-boxes.php:555
+msgid ""
+"This option is only for the second header type: Appearance > Customize > "
+"General Settings > Header Type > Header with animation. You can set an image "
+"or a video for this page in one of the following sections: \"Header Image\" "
+"or \"Header Video\". You can see these sections below. Also, the option "
+"\"Header background for this page\" must be set to \"Own background\"."
+msgstr ""
+
+#: assets/theme-meta-boxes.php:583
+msgid "Social sharing buttons"
+msgstr ""
+
+#: assets/widgets/melissa-popular-posts.php:28
+msgid "Widget shows a list of popular posts."
+msgstr ""
+
+#: assets/widgets/melissa-popular-posts.php:30
+msgid "Melissa: Popular Posts"
+msgstr ""
+
+#: assets/widgets/melissa-popular-posts.php:52
+#: assets/widgets/melissa-posts-list.php:48
+#: assets/widgets/melissa-posts-slider.php:49
+#: assets/widgets/melissa-random-posts.php:47
+#: assets/widgets/melissa-recent-posts.php:47
+#: assets/widgets/melissa-social.php:58
+#: assets/widgets/melissa-thumbnails-gallery.php:46
+msgid "Title:"
+msgstr ""
+
+#: assets/widgets/melissa-popular-posts.php:59
+#: assets/widgets/melissa-posts-list.php:55
+#: assets/widgets/melissa-posts-slider.php:56
+#: assets/widgets/melissa-random-posts.php:54
+#: assets/widgets/melissa-recent-posts.php:54
+#: assets/widgets/melissa-thumbnails-gallery.php:53
+msgid "Posts number:"
+msgstr ""
+
+#: assets/widgets/melissa-popular-posts.php:88
+msgid "Show comments"
+msgstr ""
+
+#: assets/widgets/melissa-popular-posts.php:95
+msgid "Show views"
+msgstr ""
+
+#: assets/widgets/melissa-popular-posts.php:102
+msgid "Show likes"
+msgstr ""
+
+#: assets/widgets/melissa-popular-posts.php:108
+#: assets/widgets/melissa-posts-list.php:76
+#: assets/widgets/melissa-posts-slider.php:84
+#: assets/widgets/melissa-random-posts.php:75
+#: assets/widgets/melissa-recent-posts.php:75
+#: assets/widgets/melissa-thumbnails-gallery.php:60
+msgid "Filter by Category:"
+msgstr ""
+
+#: assets/widgets/melissa-popular-posts.php:110
+#: assets/widgets/melissa-posts-list.php:78
+#: assets/widgets/melissa-posts-slider.php:86
+#: assets/widgets/melissa-random-posts.php:77
+#: assets/widgets/melissa-recent-posts.php:77
+#: assets/widgets/melissa-thumbnails-gallery.php:62
+msgid "All categories"
+msgstr ""
+
+#: assets/widgets/melissa-popular-posts.php:121
+msgid "Order by:"
+msgstr ""
+
+#: assets/widgets/melissa-popular-posts.php:123
+msgid "Views"
+msgstr ""
+
+#: assets/widgets/melissa-popular-posts.php:124
+msgid "Likes"
+msgstr ""
+
+#: assets/widgets/melissa-popular-posts.php:125
+msgid "Comments"
+msgstr ""
+
+#: assets/widgets/melissa-popular-posts.php:261
+#: assets/widgets/melissa-posts-list.php:173
+#: assets/widgets/melissa-posts-list.php:231
+#: assets/widgets/melissa-random-posts.php:183
+#: assets/widgets/melissa-recent-posts.php:183
+msgid "View post"
+msgstr ""
+
+#: assets/widgets/melissa-popular-posts.php:268
+#: assets/widgets/melissa-posts-list.php:180
+#: assets/widgets/melissa-posts-list.php:238
+#: assets/widgets/melissa-posts-slider.php:194
+#: assets/widgets/melissa-posts-slider.php:254
+#: assets/widgets/melissa-random-posts.php:190
+#: assets/widgets/melissa-recent-posts.php:190
+msgid "by "
+msgstr ""
+
+#: assets/widgets/melissa-popular-posts.php:287
+msgid "in "
+msgstr ""
+
+#: assets/widgets/melissa-popular-posts.php:294
+msgid "Leave a comment"
+msgstr ""
+
+#: assets/widgets/melissa-popular-posts.php:294
+#: assets/widgets/melissa-popular-posts.php:299
+msgid "1 Comment"
+msgstr ""
+
+#: assets/widgets/melissa-popular-posts.php:294
+#: assets/widgets/melissa-popular-posts.php:299
+msgid "% Comments"
+msgstr ""
+
+#: assets/widgets/melissa-popular-posts.php:306
+msgid "Views: "
+msgstr ""
+
+#: assets/widgets/melissa-popular-posts.php:312
+msgid "Likes: "
+msgstr ""
+
+#: assets/widgets/melissa-popular-posts.php:331
+#: assets/widgets/melissa-posts-list.php:276
+#: assets/widgets/melissa-posts-slider.php:290
+#: assets/widgets/melissa-random-posts.php:222
+#: assets/widgets/melissa-recent-posts.php:222
+#: assets/widgets/melissa-thumbnails-gallery.php:180
+msgid "No posts found."
+msgstr ""
+
+#: assets/widgets/melissa-posts-list.php:28
+msgid "Widget shows posts list with large thumbnails."
+msgstr ""
+
+#: assets/widgets/melissa-posts-list.php:30
+msgid "Melissa: Posts List"
+msgstr ""
+
+#: assets/widgets/melissa-posts-list.php:90
+#: assets/widgets/melissa-posts-slider.php:98
+#: assets/widgets/melissa-thumbnails-gallery.php:74
+msgid "Random order"
+msgstr ""
+
+#: assets/widgets/melissa-posts-slider.php:28
+msgid "Widget shows a slider with posts."
+msgstr ""
+
+#: assets/widgets/melissa-posts-slider.php:30
+msgid "Melissa: Slider With Posts"
+msgstr ""
+
+#: assets/widgets/melissa-posts-slider.php:64
+msgid "Show post title"
+msgstr ""
+
+#: assets/widgets/melissa-random-posts.php:28
+msgid "Widget shows a list of random posts."
+msgstr ""
+
+#: assets/widgets/melissa-random-posts.php:30
+msgid "Melissa: Random Posts"
+msgstr ""
+
+#: assets/widgets/melissa-recent-posts.php:28
+msgid "Widget shows a list of recent posts."
+msgstr ""
+
+#: assets/widgets/melissa-recent-posts.php:30
+msgid "Melissa: Recent Posts"
+msgstr ""
+
+#: assets/widgets/melissa-social.php:28
+msgid "Widget shows links to social profiles."
+msgstr ""
+
+#: assets/widgets/melissa-social.php:30
+msgid "Melissa: Social Links"
+msgstr ""
+
+#: assets/widgets/melissa-social.php:65
+msgid "Twitter URL:"
+msgstr ""
+
+#: assets/widgets/melissa-social.php:72
+msgid "Facebook URL:"
+msgstr ""
+
+#: assets/widgets/melissa-social.php:79
+msgid "Google+ URL:"
+msgstr ""
+
+#: assets/widgets/melissa-social.php:86
+msgid "Pinterest URL:"
+msgstr ""
+
+#: assets/widgets/melissa-social.php:93
+msgid "VK URL:"
+msgstr ""
+
+#: assets/widgets/melissa-social.php:100
+msgid "Flickr URL:"
+msgstr ""
+
+#: assets/widgets/melissa-social.php:107
+msgid "Instagram URL:"
+msgstr ""
+
+#: assets/widgets/melissa-social.php:114
+msgid "500px URL:"
+msgstr ""
+
+#: assets/widgets/melissa-social.php:121
+msgid "YouTube URL:"
+msgstr ""
+
+#: assets/widgets/melissa-social.php:128
+msgid "Vimeo URL:"
+msgstr ""
+
+#: assets/widgets/melissa-social.php:135
+msgid "Soundcloud URL:"
+msgstr ""
+
+#: assets/widgets/melissa-social.php:142
+msgid "Dribbble URL:"
+msgstr ""
+
+#: assets/widgets/melissa-social.php:149
+msgid "Behance URL:"
+msgstr ""
+
+#: assets/widgets/melissa-social.php:156
+msgid "Github URL:"
+msgstr ""
+
+#: assets/widgets/melissa-social.php:163
+msgid "RSS URL:"
+msgstr ""
+
+#: assets/widgets/melissa-thumbnails-gallery.php:28
+msgid "Widget shows a gallery of post thumbnails."
+msgstr ""
+
+#: assets/widgets/melissa-thumbnails-gallery.php:30
+msgid "Melissa: Thumbnails Gallery"
+msgstr ""
+
+#: comments.php:35
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:45
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:70
+msgid "Older comments"
+msgstr ""
+
+#: comments.php:71
+msgid "Newer comments"
+msgstr ""
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:85
+msgid "Your email address will not be published. Required fields are marked *"
+msgstr ""
+
+#: comments.php:86
+msgid "Leave a reply"
+msgstr ""
+
+#: comments.php:87
+#, php-format
+msgid "Leave a reply to %s"
+msgstr ""
+
+#: comments.php:88
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:89
+msgid "Post comment"
+msgstr ""
+
+#: content-none.php:13
+msgid "Nothing found"
+msgstr ""
+
+#: content-none.php:15
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:17
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:19
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr ""
+
+#: footer.php:16
+msgid "Footer widgets"
+msgstr ""
+
+#: functions.php:67
+msgid "Main menu"
+msgstr ""
+
+#: functions.php:168
+msgctxt "Google fonts: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:392
+msgid "Loading new posts..."
+msgstr ""
+
+#: functions.php:393
+msgid "No more posts to load"
+msgstr ""
+
+#: functions.php:394
+msgid "Load More"
+msgstr ""
+
+#: functions.php:884
+msgid "Search results for: "
+msgstr ""
+
+#: functions.php:893
+msgid "Found: "
+msgstr ""
+
+#: functions.php:895
+msgid "Post"
+msgstr ""
+
+#: functions.php:897
+msgid "Posts"
+msgstr ""
+
+#: functions.php:1339
+msgid "Share:"
+msgstr ""
+
+#: functions.php:1519
+msgid " Posts"
+msgstr ""
+
+#: functions.php:1656
+msgid "Read more"
+msgstr ""
+
+#: functions.php:1678
+msgid "Homepage"
+msgstr ""
+
+#: functions.php:1680
+msgid "Appears on the Homepage in the left or right column."
+msgstr ""
+
+#: functions.php:1691
+msgid "Archive Pages"
+msgstr ""
+
+#: functions.php:1693
+msgid ""
+"Appears on the Archive pages (archive, author, category and etc.) in the "
+"left or right column."
+msgstr ""
+
+#: functions.php:1704
+msgid "Single Post"
+msgstr ""
+
+#: functions.php:1706
+msgid "Appears on the Single post page in the left or right column."
+msgstr ""
+
+#: functions.php:1717
+msgid "Pages"
+msgstr ""
+
+#: functions.php:1719
+msgid "Appears on the Page in the left or right column."
+msgstr ""
+
+#: functions.php:1732
+msgid "Footer (Column 1)"
+msgstr ""
+
+#: functions.php:1734
+msgid "Appears in the Footer (column 1 - left column)."
+msgstr ""
+
+#: functions.php:1743
+msgid "Footer (Column 2)"
+msgstr ""
+
+#: functions.php:1745
+msgid "Appears in the Footer (column 2 - center)."
+msgstr ""
+
+#: functions.php:1754
+msgid "Footer (Column 3)"
+msgstr ""
+
+#: functions.php:1756
+msgid "Appears in the Footer (column 3 - right column)."
+msgstr ""
+
+#: searchform.php:14
+msgid "Enter your search query..."
+msgstr ""
+
+#: single.php:186
+msgid "Next post"
+msgstr ""
+
+#: single.php:187
+msgid "Previous post"
+msgstr ""
+
+#: templates/blog-posts.php:14
+msgid "Blog posts"
+msgstr ""
+
+#: templates/blog-posts.php:87
+msgid "Older posts"
+msgstr ""
+
+#: templates/blog-posts.php:88
+msgid "Newer posts"
+msgstr ""
+
+#: templates/blog-posts.php:103
+msgid "Load more"
+msgstr ""
+
+#: templates/related-posts.php:54
+msgid "You might also like:"
+msgstr ""
